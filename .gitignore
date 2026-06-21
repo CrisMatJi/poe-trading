@@ -5,8 +5,9 @@ dist
 *.log
 .DS_Store
 
-# Config local de Claude Code
+# Config local de Claude Code / skills de agentes
 .claude/
+.agents/
 
 # Datos demo sintéticos: solo para previsualización local, no para producción.
 public/data/demo

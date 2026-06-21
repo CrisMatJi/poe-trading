@@ -47,8 +47,10 @@ const slug = (s) =>
     .replace(/^-|-$/g, '')
 
 // --- Config / entorno -------------------------------------------------------
-const POESESSID = process.env.POESESSID || ''
-const CONTACT = process.env.CONTACT_EMAIL || 'tu-email@example.com'
+// .trim() elimina espacios y un posible BOM (U+FEFF) que algunos shells añaden
+// al exportar secrets, lo que rompería las cabeceras HTTP (deben ser ByteString).
+const POESESSID = (process.env.POESESSID || '').trim()
+const CONTACT = (process.env.CONTACT_EMAIL || 'tu-email@example.com').trim()
 const USER_AGENT = `PoE-Trading-Tracker/0.1 (contact: ${CONTACT})`
 const FORCE_MOCK = process.argv.includes('--mock')
 const USE_MOCK = FORCE_MOCK || !POESESSID
