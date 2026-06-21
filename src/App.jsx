@@ -17,6 +17,7 @@ export default function App() {
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
+  const [sidebarOpen, setSidebarOpen] = useState(false)
 
   // Cargar manifiesto de ligas al arrancar
   useEffect(() => {
@@ -90,6 +91,7 @@ export default function App() {
         updated={index?.updated}
         onRefresh={handleRefresh}
         refreshing={refreshing}
+        onMenu={() => setSidebarOpen(true)}
       />
 
       {error && (
@@ -98,12 +100,25 @@ export default function App() {
         </div>
       )}
 
-      <div className="flex min-h-0 flex-1">
+      <div className="relative flex min-h-0 flex-1 flex-col overflow-y-auto md:flex-row md:overflow-hidden">
+        {/* Backdrop del drawer en móvil */}
+        {sidebarOpen && (
+          <div
+            className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm md:hidden"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+
         <Watchlist
           items={index?.items || []}
           selected={selected}
-          onSelect={setSelected}
+          onSelect={(id) => {
+            setSelected(id)
+            setSidebarOpen(false)
+          }}
           currency={index?.currency}
+          open={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
         />
 
         <main className="flex min-w-0 flex-1 flex-col">
@@ -126,7 +141,7 @@ export default function App() {
             ))}
           </div>
 
-          <div className="min-h-0 flex-1 p-3">
+          <div className="h-[58vh] shrink-0 p-3 md:h-auto md:min-h-0 md:flex-1">
             <div className="shell h-full">
               <div className="core h-full overflow-hidden !bg-base-950/40">
                 <PriceChart line={line} volumes={volumes} />

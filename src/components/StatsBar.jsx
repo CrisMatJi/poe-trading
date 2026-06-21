@@ -13,7 +13,7 @@ function Stat({ label, value, className = '' }) {
 export default function StatsBar({ item, currency, stats }) {
   const up = (stats?.changePct ?? 0) >= 0
   return (
-    <div className="flex flex-wrap items-center gap-x-8 gap-y-3 border-b border-white/[0.06] bg-base-900/20 px-5 py-4">
+    <div className="flex flex-wrap items-center gap-x-6 gap-y-3 border-b border-white/[0.06] bg-base-900/20 px-3 py-3 sm:gap-x-8 sm:px-5 sm:py-4">
       {/* Identidad del item — doble bisel */}
       <div className="flex items-center gap-3">
         <div className="shell">

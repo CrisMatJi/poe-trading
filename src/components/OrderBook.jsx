@@ -9,7 +9,7 @@ export default function OrderBook({ history, stats, currency }) {
   const up = (stats?.changePct ?? 0) >= 0
 
   return (
-    <aside className="flex w-72 shrink-0 flex-col border-l border-white/[0.06] bg-base-900/20">
+    <aside className="flex w-full shrink-0 flex-col border-t border-white/[0.06] bg-base-900/20 md:w-72 md:border-l md:border-t-0">
       <div className="flex items-center gap-2 px-3 pt-3 pb-2">
         <span className="relative flex h-2 w-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
@@ -28,7 +28,7 @@ export default function OrderBook({ history, stats, currency }) {
       </div>
 
       <div className="eyebrow border-t border-white/[0.06] px-3 py-2">Histórico diario</div>
-      <div className="flex-1 overflow-y-auto">
+      <div className="max-h-[45vh] flex-1 overflow-y-auto md:max-h-none">
         <div className="grid grid-cols-3 gap-2 px-3 py-1 text-[10px] uppercase text-gray-600">
           <span>Fecha</span>
           <span className="text-right">Precio</span>

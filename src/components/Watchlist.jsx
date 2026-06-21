@@ -1,10 +1,10 @@
 import { useState, useMemo } from 'react'
-import { Search } from 'lucide-react'
-import { fmtPrice, fmtPct } from '../lib/format'
+import { Search, X } from 'lucide-react'
+import { fmtPrice, fmtPct, fmtNum } from '../lib/format'
 import ItemIcon from './ItemIcon'
 import Sparkline from './Sparkline'
 
-export default function Watchlist({ items, selected, onSelect, currency }) {
+export default function Watchlist({ items, selected, onSelect, currency, open, onClose }) {
   const [q, setQ] = useState('')
 
   const filtered = useMemo(() => {
@@ -20,12 +20,25 @@ export default function Watchlist({ items, selected, onSelect, currency }) {
   }, [items, q])
 
   return (
-    <aside className="flex w-72 shrink-0 flex-col border-r border-white/[0.06] bg-base-900/20">
+    <aside
+      className={`fixed inset-y-0 left-0 z-40 flex w-[84%] max-w-[20rem] shrink-0 transform flex-col border-r border-white/[0.06] transition-transform duration-300 ease-smooth glass md:static md:z-auto md:w-72 md:max-w-none md:translate-x-0 md:bg-base-900/20 ${
+        open ? 'translate-x-0' : '-translate-x-full'
+      }`}
+    >
       <div className="flex items-center justify-between px-3 pt-3 pb-2">
         <span className="eyebrow !tracking-widest text-gray-400">Mercado</span>
-        <span className="rounded-full border border-white/[0.06] bg-white/[0.04] px-2 py-0.5 text-[10px] font-semibold text-gray-400">
-          {items.length}
-        </span>
+        <div className="flex items-center gap-2">
+          <span className="rounded-full border border-white/[0.06] bg-white/[0.04] px-2 py-0.5 text-[10px] font-semibold text-gray-400">
+            {items.length}
+          </span>
+          <button
+            onClick={onClose}
+            aria-label="Cerrar"
+            className="flex h-7 w-7 items-center justify-center rounded-lg text-gray-400 hover:bg-white/[0.06] md:hidden"
+          >
+            <X className="h-4 w-4" strokeWidth={1.75} />
+          </button>
+        </div>
       </div>
 
       <div className="px-3 pb-2">
@@ -62,7 +75,7 @@ export default function Watchlist({ items, selected, onSelect, currency }) {
               <div className="min-w-0 flex-1">
                 <div className="truncate text-[13px] font-semibold text-gray-100">{it.name}</div>
                 <div className="text-[11px] text-gray-500">
-                  {noData ? 'sin listings' : `${it.listings} listings`}
+                  {noData ? 'sin datos' : `vol ${fmtNum(it.volume)}`}
                 </div>
               </div>
 
