@@ -45,11 +45,10 @@ export default function StatsBar({ item, currency, stats }) {
 
       {/* Stats secundarias */}
       <div className="flex flex-wrap items-center gap-x-7 gap-y-2">
-        <Stat label="Máx 24h" value={fmtPrice(stats?.high)} className="text-gray-300" />
-        <Stat label="Mín 24h" value={fmtPrice(stats?.low)} className="text-gray-300" />
+        <Stat label="Máx" value={fmtPrice(stats?.high)} className="text-up" />
+        <Stat label="Mín" value={fmtPrice(stats?.low)} className="text-down" />
         <Stat label="Volumen" value={fmtNum(stats?.volume)} className="text-gray-300" />
-        <Stat label="Listings" value={fmtNum(stats?.listings)} className="text-gray-300" />
-        <Stat label="Stock" value={fmtNum(stats?.stock)} className="text-gray-300" />
+        <Stat label="Vol. medio" value={fmtNum(Math.round(stats?.avgVolume ?? 0))} className="text-gray-300" />
       </div>
     </div>
   )

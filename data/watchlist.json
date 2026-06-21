@@ -1,18 +1,8 @@
 {
-  "leagues": ["Runes of Aldur", "HC Runes of Aldur", "Standard"],
+  "source": "poe2scout",
   "realm": "poe2",
-  "description": "'leagues': ligas a recolectar (ids exactos de GGG). Vacío [] = todas. 'currency': divisa base (precios expresados en ella). 'items': el 'id' es el identificador del exchange de GGG; name/icon se autocompletan desde data/static. Ver docs/API.md.",
-  "currency": "exalted",
-  "items": [
-    { "id": "divine",    "category": "currency" },
-    { "id": "chaos",     "category": "currency" },
-    { "id": "annul",     "category": "currency" },
-    { "id": "vaal",      "category": "currency" },
-    { "id": "regal",     "category": "currency" },
-    { "id": "alch",      "category": "currency" },
-    { "id": "transmute", "category": "currency" },
-    { "id": "aug",       "category": "currency" },
-    { "id": "chance",    "category": "currency" },
-    { "id": "mirror",    "category": "currency" }
-  ]
+  "leagues": ["Runes of Aldur", "HC Runes of Aldur", "Standard"],
+  "categories": ["currency", "fragments", "runes", "essences"],
+  "perPage": 250,
+  "description": "Config del recolector poe2scout. 'leagues': ids exactos (Value) de poe2scout; vacío [] = ligas actuales (IsCurrent). 'categories': categorías de currency a traer (currency, fragments, runes, essences, ultimatum, expedition, ritual, breach, abyss, delirium...). El histórico (PriceLogs) y los iconos vienen ya de la API."
 }

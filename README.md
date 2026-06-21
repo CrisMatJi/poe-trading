@@ -1,87 +1,75 @@
 # PoE Trading
 
-Web tipo terminal de trading (velas OHLC, volumen, spread, tape de precios) para
-el mercado de **Path of Exile 2**, alimentada por la API oficial de GGG y
-desplegada de forma estática en **GitHub Pages**.
+Web tipo terminal de trading (curva de precio, volumen, % de cambio, histórico)
+para el mercado de **Path of Exile 2**, desplegada de forma estática en
+**GitHub Pages**.
 
 Inspirada en sitios como StockTwits / poe.ninja, pero con enfoque de *trading*:
-gráficos de velas por timeframe, volumen y libro de mercado.
+gráfico de área por rango, volumen diario, selector de liga y buscador.
+
+🌐 **En vivo:** https://crismatji.github.io/poe-trading/
 
 ## Cómo funciona (arquitectura)
 
-La API oficial de GGG **no se puede llamar desde el navegador** (CORS), requiere
-sesión y **no da histórico**. Por eso se separa en dos piezas:
+Los datos vienen de la API de **[poe2scout](https://poe2scout.com)**, que ya
+tiene **histórico acumulado** de precios + volumen (la API oficial de GGG solo da
+listings vivos, sin histórico). Como poe2scout no permite CORS de forma fiable,
+la llamada se hace server-side en una GitHub Action y el frontend solo lee JSON:
 
 ```
-GitHub Action (cron)            Frontend estático (GitHub Pages)
-─────────────────────           ────────────────────────────────
+GitHub Action (cron)             Frontend estático (GitHub Pages)
+─────────────────────            ────────────────────────────────
 scripts/collect.mjs    ──JSON──▶  React + Vite + lightweight-charts
- • llama a GGG (server)            • lee /data/*.json (sin CORS, sin auth)
- • POESESSID (secret)              • agrega snapshots → velas OHLC + volumen
- • commitea public/data            • pinta gráficos de trading
+ • llama a poe2scout (server)      • lee /data/*.json (sin CORS, sin auth)
+ • histórico + volumen + iconos    • dibuja área + volumen + stats
+ • commitea public/data            • selector de liga + buscador
 ```
 
-El recolector va **acumulando** snapshots a lo largo del tiempo: así se construye
-el histórico que ni la API ni un sitio estático tendrían por sí solos.
+Sin credenciales: poe2scout no requiere auth. (Se conserva un recolector
+alternativo por la API oficial de GGG en `scripts/collect-ggg.mjs`, que sí
+necesita `POESESSID` y acumula histórico propio; opcional.)
 
 ## Desarrollo local
 
 ```bash
 npm install
-npm run collect      # genera datos (MOCK si no hay POESESSID)
-npm run seed:demo    # opcional: liga "Demo" con histórico sintético (velas/sparklines)
+npm run collect      # descarga datos reales de poe2scout (sin credenciales)
 npm run dev          # http://localhost:5173
 ```
 
-> `seed:demo` crea una liga **Demo** con ~14 días de histórico sintético para ver
-> la interfaz completa (velas, volumen, sparklines) sin esperar a que el cron
-> acumule snapshots reales. No toca los datos reales. Bórrala con
-> `rm -rf public/data/demo` y reejecutando `npm run collect`.
+## Configuración
 
-En modo MOCK el recolector genera precios sintéticos (random walk) para que puedas
-ver la web funcionando sin credenciales. Ejecuta `npm run collect` varias veces
-para acumular más velas.
+Edita [data/watchlist.json](data/watchlist.json):
 
-## Datos reales
-
-1. Consigue tu `POESESSID` (cookie de sesión de pathofexile.com) — ver
-   [docs/API.md](docs/API.md).
-2. Edita [data/watchlist.json](data/watchlist.json): liga, realm e items.
-3. Define la cookie y ejecuta:
-   ```bash
-   POESESSID=xxxxx CONTACT_EMAIL=tu@email.com npm run collect
-   ```
+- `leagues`: ids de liga de poe2scout (p.ej. `"Runes of Aldur"`). Vacío `[]` = ligas actuales.
+- `categories`: `currency`, `fragments`, `runes`, `essences`, `ultimatum`, `breach`, `abyss`, …
+- `perPage`: items por página al paginar.
 
 ## Despliegue (GitHub Actions)
 
 1. Sube el repo a GitHub y activa **Pages** (Settings → Pages → Source: GitHub Actions).
-2. En **Settings → Secrets and variables → Actions** añade:
-   - `POESESSID` — tu cookie de sesión.
-   - `CONTACT_EMAIL` — email de contacto (GGG exige User-Agent identificativo).
+2. (Opcional) Secret `CONTACT_EMAIL` para el `User-Agent`.
 3. Listo:
    - [.github/workflows/collect.yml](.github/workflows/collect.yml) recolecta cada
-     30 min y commitea los snapshots.
+     30 min y commitea los datos.
    - [.github/workflows/deploy.yml](.github/workflows/deploy.yml) reconstruye y
      publica la web tras cada commit de datos o de código.
-
-> Sin el secret `POESESSID`, el workflow funciona igualmente en modo MOCK, útil
-> para probar el pipeline completo antes de meter credenciales.
 
 ## Estructura
 
 ```
-data/watchlist.json     config: liga + items a trackear
-public/data/            salida del recolector (índice + histórico por item)
-scripts/collect.mjs     recolector (real / mock)
-src/lib/candles.js      agregación snapshots → OHLC + volumen + stats
+data/watchlist.json     config: ligas + categorías
+public/data/            salida del recolector (leagues.json + <liga>/index.json + history/)
+scripts/collect.mjs     recolector poe2scout (fuente principal)
+scripts/collect-ggg.mjs recolector API oficial GGG (opcional, requiere POESESSID)
+src/lib/candles.js      series diarias → área + volumen + stats
 src/api/data.js         carga de los JSON estáticos
 src/components/         Header, Watchlist, StatsBar, PriceChart, OrderBook
 ```
 
 ## Avisos
 
-- Respeta los [términos de la API de GGG](https://www.pathofexile.com/developer/docs).
-  Usa un `User-Agent` identificativo y no satures los rate-limits.
-- Las rutas/formato de la API trade2 de PoE2 pueden cambiar; el parser está
-  aislado en `scripts/collect.mjs` (`parseExchange`) y `exchangeUrl` para
-  ajustarlo fácil. Ver [docs/API.md](docs/API.md).
+- Respeta los términos de uso de poe2scout; usa un `User-Agent` identificativo y
+  no satures la API.
+- El formato de la API puede cambiar; la transformación está aislada en
+  `scripts/collect.mjs` (`toHistory`, `collectLeague`) para ajustarla fácil.

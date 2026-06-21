@@ -5,7 +5,7 @@ import StatsBar from './components/StatsBar'
 import PriceChart from './components/PriceChart'
 import OrderBook from './components/OrderBook'
 import { loadLeagues, loadIndex, loadHistory } from './api/data'
-import { toCandles, computeStats, TIMEFRAMES } from './lib/candles'
+import { toSeries, computeStats, RANGES } from './lib/candles'
 
 export default function App() {
   const [leagues, setLeagues] = useState([])
@@ -13,7 +13,7 @@ export default function App() {
   const [index, setIndex] = useState(null)
   const [selected, setSelected] = useState(null)
   const [history, setHistory] = useState([])
-  const [timeframe, setTimeframe] = useState('1h')
+  const [range, setRange] = useState('14D')
   const [error, setError] = useState(null)
   const [loading, setLoading] = useState(true)
   const [refreshing, setRefreshing] = useState(false)
@@ -58,11 +58,11 @@ export default function App() {
     }
   }, [leagueSlug, selected])
 
-  const { candles, volumes } = useMemo(
-    () => toCandles(history, timeframe),
-    [history, timeframe]
+  const { line, volumes } = useMemo(
+    () => toSeries(history, range),
+    [history, range]
   )
-  const stats = useMemo(() => computeStats(history), [history])
+  const stats = useMemo(() => computeStats(history, range), [history, range])
 
   const selectedItem = index?.items.find((it) => it.id === selected)
 
@@ -110,18 +110,18 @@ export default function App() {
           <StatsBar item={selectedItem} currency={index?.currency} stats={stats} />
 
           <div className="flex items-center gap-1.5 border-b border-white/[0.06] bg-base-900/20 px-4 py-2">
-            <span className="eyebrow mr-1">Intervalo</span>
-            {Object.keys(TIMEFRAMES).map((tf) => (
+            <span className="eyebrow mr-1">Rango</span>
+            {Object.keys(RANGES).map((r) => (
               <button
-                key={tf}
-                onClick={() => setTimeframe(tf)}
+                key={r}
+                onClick={() => setRange(r)}
                 className={`rounded-lg px-2.5 py-1 text-xs font-semibold transition-all duration-500 ease-smooth active:scale-[0.95] ${
-                  tf === timeframe
+                  r === range
                     ? 'bg-accent text-base-950 shadow-glow'
                     : 'text-gray-400 hover:bg-white/[0.05] hover:text-gray-100'
                 }`}
               >
-                {tf}
+                {r}
               </button>
             ))}
           </div>
@@ -129,13 +129,13 @@ export default function App() {
           <div className="min-h-0 flex-1 p-3">
             <div className="shell h-full">
               <div className="core h-full overflow-hidden !bg-base-950/40">
-                <PriceChart candles={candles} volumes={volumes} />
+                <PriceChart line={line} volumes={volumes} />
               </div>
             </div>
           </div>
         </main>
 
-        <OrderBook snapshots={history} currency={index?.currency} />
+        <OrderBook history={history} stats={stats} currency={index?.currency} />
       </div>
 
       {loading && (

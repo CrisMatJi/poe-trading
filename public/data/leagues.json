@@ -1,21 +1,25 @@
 {
   "realm": "poe2",
-  "updated": 1782040612,
+  "source": "poe2scout",
+  "updated": 1782042159,
   "leagues": [
     {
       "id": "Runes of Aldur",
       "text": "Runes of Aldur",
-      "slug": "runes-of-aldur"
+      "slug": "runes-of-aldur",
+      "current": true
     },
     {
       "id": "HC Runes of Aldur",
       "text": "HC Runes of Aldur",
-      "slug": "hc-runes-of-aldur"
+      "slug": "hc-runes-of-aldur",
+      "current": true
     },
     {
       "id": "Standard",
       "text": "Standard",
-      "slug": "standard"
+      "slug": "standard",
+      "current": false
     }
   ]
 }

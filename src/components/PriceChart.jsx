@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react'
-import { createChart, ColorType, CrosshairMode } from 'lightweight-charts'
+import { createChart, ColorType, CrosshairMode, LineStyle } from 'lightweight-charts'
 
-export default function PriceChart({ candles, volumes }) {
+export default function PriceChart({ line, volumes }) {
   const containerRef = useRef(null)
   const chartRef = useRef(null)
-  const candleSeriesRef = useRef(null)
-  const volSeriesRef = useRef(null)
+  const areaRef = useRef(null)
+  const volRef = useRef(null)
 
   // Crear el chart una sola vez
   useEffect(() => {
@@ -17,39 +17,38 @@ export default function PriceChart({ candles, volumes }) {
         fontSize: 11,
       },
       grid: {
-        vertLines: { color: 'rgba(43,53,71,0.4)' },
-        horzLines: { color: 'rgba(43,53,71,0.4)' },
+        vertLines: { color: 'rgba(43,53,71,0.35)' },
+        horzLines: { color: 'rgba(43,53,71,0.35)' },
       },
       crosshair: {
         mode: CrosshairMode.Normal,
-        vertLine: { color: '#3a4659', labelBackgroundColor: '#e8b14c' },
-        horzLine: { color: '#3a4659', labelBackgroundColor: '#e8b14c' },
+        vertLine: { color: '#3a4659', labelBackgroundColor: '#e8b14c', style: LineStyle.Dashed },
+        horzLine: { color: '#3a4659', labelBackgroundColor: '#e8b14c', style: LineStyle.Dashed },
       },
       rightPriceScale: { borderColor: '#1f2735' },
-      timeScale: { borderColor: '#1f2735', timeVisible: true, secondsVisible: false },
+      timeScale: { borderColor: '#1f2735', timeVisible: false, secondsVisible: false },
       autoSize: true,
     })
 
-    const candleSeries = chart.addCandlestickSeries({
-      upColor: '#22c55e',
-      downColor: '#ef4444',
-      borderUpColor: '#22c55e',
-      borderDownColor: '#ef4444',
-      wickUpColor: '#22c55e',
-      wickDownColor: '#ef4444',
+    const area = chart.addAreaSeries({
+      lineColor: '#e8b14c',
+      lineWidth: 2,
+      topColor: 'rgba(232,177,76,0.28)',
+      bottomColor: 'rgba(232,177,76,0.01)',
+      priceLineColor: '#e8b14c',
+      crosshairMarkerBackgroundColor: '#e8b14c',
+      crosshairMarkerBorderColor: '#0a0d13',
     })
 
-    const volSeries = chart.addHistogramSeries({
+    const vol = chart.addHistogramSeries({
       priceFormat: { type: 'volume' },
       priceScaleId: 'vol',
     })
-    chart.priceScale('vol').applyOptions({
-      scaleMargins: { top: 0.8, bottom: 0 },
-    })
+    chart.priceScale('vol').applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } })
 
     chartRef.current = chart
-    candleSeriesRef.current = candleSeries
-    volSeriesRef.current = volSeries
+    areaRef.current = area
+    volRef.current = vol
 
     return () => {
       chart.remove()
@@ -57,20 +56,20 @@ export default function PriceChart({ candles, volumes }) {
     }
   }, [])
 
-  // Actualizar datos cuando cambian
+  // Actualizar datos
   useEffect(() => {
-    if (!candleSeriesRef.current) return
-    candleSeriesRef.current.setData(candles || [])
-    volSeriesRef.current.setData(volumes || [])
+    if (!areaRef.current) return
+    areaRef.current.setData(line || [])
+    volRef.current.setData(volumes || [])
     chartRef.current?.timeScale().fitContent()
-  }, [candles, volumes])
+  }, [line, volumes])
 
   return (
     <div className="relative h-full w-full">
       <div ref={containerRef} className="absolute inset-0" />
-      {(!candles || candles.length === 0) && (
+      {(!line || line.length === 0) && (
         <div className="absolute inset-0 flex items-center justify-center text-sm text-gray-500">
-          Aún no hay suficientes snapshots para dibujar velas.
+          Sin histórico para este item.
         </div>
       )}
     </div>

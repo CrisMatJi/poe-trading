@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "collect": "node --env-file-if-exists=.env scripts/collect.mjs",
-    "seed:demo": "node scripts/seed-demo.mjs"
+    "collect:ggg": "node --env-file-if-exists=.env scripts/collect-ggg.mjs"
   },
   "dependencies": {
     "lightweight-charts": "^4.2.0",
