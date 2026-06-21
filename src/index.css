@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  color: #cbd3df;
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  /* Fondo profundo con un par de halos de color muy sutiles */
+  background-color: #0a0d13;
+  background-image:
+    radial-gradient(900px 500px at 85% -5%, rgba(232, 177, 76, 0.06), transparent 60%),
+    radial-gradient(800px 600px at -5% 110%, rgba(56, 130, 246, 0.05), transparent 55%);
+  background-attachment: fixed;
+}
+
+/* Números tabulares para que los precios no "bailen" */
+.tnum {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
+
+/* scrollbars finos estilo terminal */
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: #2b3547; border-radius: 4px; }
+*::-webkit-scrollbar-thumb:hover { background: #3a4659; }
+
+/* Panel con leve cristal */
+.glass {
+  background: rgba(15, 19, 28, 0.7);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* El <select> nativo con flecha custom */
+select {
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b97a7' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding-right: 1.75rem;
+}
