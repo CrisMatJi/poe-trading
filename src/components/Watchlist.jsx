@@ -20,22 +20,22 @@ export default function Watchlist({ items, selected, onSelect, currency }) {
   }, [items, q])
 
   return (
-    <aside className="flex w-72 shrink-0 flex-col border-r border-base-600/80 bg-base-800/40">
+    <aside className="flex w-72 shrink-0 flex-col border-r border-white/[0.06] bg-base-900/20">
       <div className="flex items-center justify-between px-3 pt-3 pb-2">
-        <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Mercado</span>
-        <span className="rounded-full bg-base-600 px-2 py-0.5 text-[10px] font-semibold text-gray-400">
+        <span className="eyebrow !tracking-widest text-gray-400">Mercado</span>
+        <span className="rounded-full border border-white/[0.06] bg-white/[0.04] px-2 py-0.5 text-[10px] font-semibold text-gray-400">
           {items.length}
         </span>
       </div>
 
       <div className="px-3 pb-2">
         <div className="relative">
-          <Search className="pointer-events-none absolute left-2.5 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-gray-500" />
+          <Search className="pointer-events-none absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-gray-500" strokeWidth={1.75} />
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
             placeholder="Buscar item…"
-            className="w-full rounded-lg border border-base-600 bg-base-900/60 py-1.5 pl-8 pr-2 text-sm text-gray-200 outline-none transition placeholder:text-gray-600 focus:border-accent/60"
+            className="w-full rounded-xl border border-white/[0.07] bg-base-950/60 py-2 pl-9 pr-2 text-sm text-gray-200 shadow-bezel outline-none transition-all duration-500 ease-smooth placeholder:text-gray-600 focus:border-accent/50"
           />
         </div>
       </div>
@@ -52,12 +52,12 @@ export default function Watchlist({ items, selected, onSelect, currency }) {
             <button
               key={it.id}
               onClick={() => onSelect(it.id)}
-              className={`group relative flex w-full items-center gap-2.5 px-3 py-2 text-left transition ${
-                active ? 'bg-base-700/70' : 'hover:bg-base-700/40'
+              className={`group relative flex w-full items-center gap-2.5 px-3 py-2 text-left transition-all duration-300 ease-smooth ${
+                active ? 'bg-white/[0.04]' : 'hover:bg-white/[0.02]'
               }`}
             >
-              {active && <span className="absolute inset-y-1 left-0 w-0.5 rounded-r bg-accent" />}
-              <ItemIcon src={it.icon} name={it.name} size={30} />
+              {active && <span className="absolute inset-y-1.5 left-0 w-[3px] rounded-r-full bg-accent shadow-glow" />}
+              <ItemIcon src={it.icon} name={it.name} size={30} className="transition-transform duration-300 ease-smooth group-hover:scale-110" />
 
               <div className="min-w-0 flex-1">
                 <div className="truncate text-[13px] font-semibold text-gray-100">{it.name}</div>
@@ -89,7 +89,7 @@ export default function Watchlist({ items, selected, onSelect, currency }) {
         })}
       </div>
 
-      <div className="border-t border-base-600/80 px-3 py-2 text-[10px] text-gray-600">
+      <div className="border-t border-white/[0.06] px-3 py-2 text-[10px] text-gray-600">
         precios en <span className="text-gray-400">{currency || 'exalted'}</span>
       </div>
     </aside>

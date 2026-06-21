@@ -3,26 +3,26 @@ import { fmtTime } from '../lib/format'
 
 export default function Header({ leagues, leagueSlug, onLeagueChange, updated, onRefresh, refreshing }) {
   return (
-    <header className="glass z-20 flex items-center justify-between border-b border-base-600/80 px-4 py-2.5">
+    <header className="glass sticky top-0 z-30 flex items-center justify-between border-b border-white/[0.06] px-4 py-3">
       <div className="flex items-center gap-3">
-        <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-accent-400 to-accent-600 shadow-glow">
-          <TrendingUp className="h-5 w-5 text-base-900" strokeWidth={2.5} />
+        <div className="shell !p-1">
+          <div className="core flex h-8 w-8 items-center justify-center bg-gradient-to-br from-accent-400 to-accent-600 shadow-glow">
+            <TrendingUp className="h-4 w-4 text-base-950" strokeWidth={2} />
+          </div>
         </div>
         <div className="leading-tight">
-          <div className="text-[15px] font-extrabold tracking-tight text-gray-50">
+          <div className="text-[15px] font-bold tracking-tight text-gray-50">
             PoE<span className="text-accent">Trading</span>
           </div>
-          <div className="text-[10px] font-medium uppercase tracking-widest text-gray-500">
-            Path of Exile · Market
-          </div>
+          <div className="eyebrow">Path of Exile · Market</div>
         </div>
 
-        <div className="ml-2 flex items-center gap-2">
-          <span className="text-[11px] font-medium uppercase tracking-wide text-gray-500">Liga</span>
+        <div className="ml-3 flex items-center gap-2">
+          <span className="eyebrow">Liga</span>
           <select
             value={leagueSlug || ''}
             onChange={(e) => onLeagueChange(e.target.value)}
-            className="cursor-pointer rounded-lg border border-base-500 bg-base-700 px-3 py-1.5 text-xs font-semibold text-gray-100 outline-none transition hover:border-accent/60 focus:border-accent"
+            className="cursor-pointer rounded-xl border border-white/[0.08] bg-base-800/80 px-3 py-1.5 text-xs font-semibold text-gray-100 shadow-bezel outline-none transition-all duration-500 ease-smooth hover:border-accent/50 focus:border-accent"
           >
             {(!leagues || leagues.length === 0) && <option value="">— sin ligas —</option>}
             {leagues?.map((l) => (
@@ -44,10 +44,12 @@ export default function Header({ leagues, leagueSlug, onLeagueChange, updated, o
         </div>
         <button
           onClick={onRefresh}
-          className="flex items-center gap-1.5 rounded-lg border border-base-500 bg-base-700 px-3 py-1.5 text-xs font-semibold text-gray-200 transition hover:border-accent/60 hover:text-white"
+          className="group flex items-center gap-2 rounded-full border border-white/[0.08] bg-base-800/80 py-1.5 pl-4 pr-1.5 text-xs font-semibold text-gray-200 shadow-bezel transition-all duration-500 ease-smooth hover:border-accent/50 hover:text-white active:scale-[0.97]"
         >
-          <RefreshCw className={`h-3.5 w-3.5 ${refreshing ? 'animate-spin' : ''}`} />
           Refrescar
+          <span className="flex h-6 w-6 items-center justify-center rounded-full bg-white/[0.06] transition-all duration-500 ease-smooth group-hover:bg-accent/20">
+            <RefreshCw className={`h-3.5 w-3.5 ${refreshing ? 'animate-spin' : 'group-hover:rotate-45'} transition-transform duration-500 ease-smooth`} strokeWidth={1.75} />
+          </span>
         </button>
       </div>
     </header>

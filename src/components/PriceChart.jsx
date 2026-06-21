@@ -66,7 +66,7 @@ export default function PriceChart({ candles, volumes }) {
   }, [candles, volumes])
 
   return (
-    <div className="relative flex-1">
+    <div className="relative h-full w-full">
       <div ref={containerRef} className="absolute inset-0" />
       {(!candles || candles.length === 0) && (
         <div className="absolute inset-0 flex items-center justify-center text-sm text-gray-500">

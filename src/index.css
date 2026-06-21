@@ -8,17 +8,29 @@ html, body, #root {
 }
 
 body {
-  color: #cbd3df;
-  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: #c8d0dd;
+  font-family: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  /* Fondo profundo con un par de halos de color muy sutiles */
-  background-color: #0a0d13;
+  /* Fondo casi-OLED con halos de color (mesh) muy sutiles */
+  background-color: #06080d;
   background-image:
-    radial-gradient(900px 500px at 85% -5%, rgba(232, 177, 76, 0.06), transparent 60%),
-    radial-gradient(800px 600px at -5% 110%, rgba(56, 130, 246, 0.05), transparent 55%);
+    radial-gradient(1000px 560px at 88% -8%, rgba(232, 177, 76, 0.07), transparent 60%),
+    radial-gradient(820px 620px at -8% 112%, rgba(56, 130, 246, 0.06), transparent 55%);
   background-attachment: fixed;
 }
+
+/* Grano de película fijo (no intercepta clics) para textura física */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+#root { position: relative; z-index: 2; }
 
 /* Números tabulares para que los precios no "bailen" */
 .tnum {
@@ -29,22 +41,36 @@ body {
 /* scrollbars finos estilo terminal */
 *::-webkit-scrollbar { width: 8px; height: 8px; }
 *::-webkit-scrollbar-track { background: transparent; }
-*::-webkit-scrollbar-thumb { background: #2b3547; border-radius: 4px; }
-*::-webkit-scrollbar-thumb:hover { background: #3a4659; }
+*::-webkit-scrollbar-thumb { background: #232c3c; border-radius: 4px; }
+*::-webkit-scrollbar-thumb:hover { background: #34415a; }
 
-/* Panel con leve cristal */
+/* Cristal para barras fijas (header) */
 .glass {
-  background: rgba(15, 19, 28, 0.7);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(10, 13, 19, 0.72);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+}
+
+@layer components {
+  /* Doble-bisel: carcasa exterior (bandeja) + núcleo interior (cristal). */
+  .shell {
+    @apply rounded-2xl border border-white/[0.06] bg-white/[0.02] p-1.5;
+  }
+  .core {
+    @apply rounded-[0.625rem] border border-white/[0.05] bg-base-800/60 shadow-bezel;
+  }
+  /* Etiqueta "eyebrow" tipo agencia */
+  .eyebrow {
+    @apply text-[10px] font-semibold uppercase tracking-[0.18em] text-gray-500;
+  }
 }
 
 /* El <select> nativo con flecha custom */
 select {
   -webkit-appearance: none;
   appearance: none;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b97a7' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b97a7' stroke-width='1.75'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: right 0.5rem center;
-  padding-right: 1.75rem;
+  background-position: right 0.6rem center;
+  padding-right: 1.85rem;
 }

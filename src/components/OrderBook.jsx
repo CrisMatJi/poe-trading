@@ -12,13 +12,13 @@ export default function OrderBook({ snapshots, currency }) {
   const spreadPct = last && last.price ? (spread / last.price) * 100 : 0
 
   return (
-    <aside className="flex w-72 shrink-0 flex-col border-l border-base-600/80 bg-base-800/40">
+    <aside className="flex w-72 shrink-0 flex-col border-l border-white/[0.06] bg-base-900/20">
       <div className="flex items-center gap-2 px-3 pt-3 pb-2">
         <span className="relative flex h-2 w-2">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-accent opacity-50" />
           <span className="relative inline-flex h-2 w-2 rounded-full bg-accent" />
         </span>
-        <span className="text-xs font-bold uppercase tracking-wider text-gray-400">Mercado en vivo</span>
+        <span className="eyebrow !tracking-widest text-gray-400">Mercado en vivo</span>
       </div>
 
       {/* Resumen del último snapshot */}
@@ -32,9 +32,7 @@ export default function OrderBook({ snapshots, currency }) {
       </div>
 
       {/* Feed reciente */}
-      <div className="border-t border-base-600/80 px-3 py-1.5 text-[10px] font-semibold uppercase tracking-wider text-gray-500">
-        Ticks recientes
-      </div>
+      <div className="eyebrow border-t border-white/[0.06] px-3 py-2">Ticks recientes</div>
       <div className="flex-1 overflow-y-auto">
         <div className="grid grid-cols-3 gap-2 px-3 py-1 text-[10px] uppercase text-gray-600">
           <span>Hora</span>
@@ -59,7 +57,7 @@ export default function OrderBook({ snapshots, currency }) {
         {recent.length === 0 && <div className="p-3 text-sm text-gray-600">Sin ticks todavía.</div>}
       </div>
 
-      <div className="border-t border-base-600/80 px-3 py-2 text-[10px] text-gray-600">
+      <div className="border-t border-white/[0.06] px-3 py-2 text-[10px] text-gray-600">
         precios en <span className="text-gray-400">{currency || 'exalted'}</span>
       </div>
     </aside>
@@ -68,7 +66,7 @@ export default function OrderBook({ snapshots, currency }) {
 
 function Cell({ label, value, className = '' }) {
   return (
-    <div className="rounded-lg border border-base-600/70 bg-base-900/50 px-2.5 py-1.5">
+    <div className="core px-2.5 py-1.5">
       <div className="text-[10px] uppercase tracking-wide text-gray-500">{label}</div>
       <div className={`tnum font-mono text-sm text-gray-200 ${className}`}>{value}</div>
     </div>

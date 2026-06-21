@@ -109,18 +109,16 @@ export default function App() {
         <main className="flex min-w-0 flex-1 flex-col">
           <StatsBar item={selectedItem} currency={index?.currency} stats={stats} />
 
-          <div className="flex items-center gap-1.5 border-b border-base-600/80 bg-base-800/30 px-4 py-2">
-            <span className="mr-1 text-[11px] font-medium uppercase tracking-wider text-gray-500">
-              Intervalo
-            </span>
+          <div className="flex items-center gap-1.5 border-b border-white/[0.06] bg-base-900/20 px-4 py-2">
+            <span className="eyebrow mr-1">Intervalo</span>
             {Object.keys(TIMEFRAMES).map((tf) => (
               <button
                 key={tf}
                 onClick={() => setTimeframe(tf)}
-                className={`rounded-md px-2.5 py-1 text-xs font-semibold transition ${
+                className={`rounded-lg px-2.5 py-1 text-xs font-semibold transition-all duration-500 ease-smooth active:scale-[0.95] ${
                   tf === timeframe
-                    ? 'bg-accent text-base-900 shadow-glow'
-                    : 'text-gray-400 hover:bg-base-700 hover:text-gray-100'
+                    ? 'bg-accent text-base-950 shadow-glow'
+                    : 'text-gray-400 hover:bg-white/[0.05] hover:text-gray-100'
                 }`}
               >
                 {tf}
@@ -128,7 +126,13 @@ export default function App() {
             ))}
           </div>
 
-          <PriceChart candles={candles} volumes={volumes} />
+          <div className="min-h-0 flex-1 p-3">
+            <div className="shell h-full">
+              <div className="core h-full overflow-hidden !bg-base-950/40">
+                <PriceChart candles={candles} volumes={volumes} />
+              </div>
+            </div>
+          </div>
         </main>
 
         <OrderBook snapshots={history} currency={index?.currency} />

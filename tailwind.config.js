@@ -24,12 +24,19 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        sans: ['Geist', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
       },
+      transitionTimingFunction: {
+        // curva "spring" tipo Linear/Apple para todo el movimiento
+        smooth: 'cubic-bezier(0.32, 0.72, 0, 1)',
+      },
       boxShadow: {
-        glow: '0 0 0 1px rgba(232,177,76,0.25), 0 8px 30px -8px rgba(232,177,76,0.25)',
-        panel: '0 10px 40px -12px rgba(0,0,0,0.6)',
+        glow: '0 0 0 1px rgba(232,177,76,0.3), 0 8px 30px -8px rgba(232,177,76,0.35)',
+        panel: '0 18px 50px -20px rgba(0,0,0,0.75)',
+        // highlight interior superior (efecto "cristal sobre bandeja de aluminio")
+        bezel: 'inset 0 1px 0 0 rgba(255,255,255,0.06), 0 1px 2px 0 rgba(0,0,0,0.4)',
+        'bezel-lg': 'inset 0 1px 0 0 rgba(255,255,255,0.07), 0 20px 40px -24px rgba(0,0,0,0.8)',
       },
       keyframes: {
         'fade-in': {

@@ -3,8 +3,8 @@ import ItemIcon from './ItemIcon'
 
 function Stat({ label, value, className = '' }) {
   return (
-    <div className="flex flex-col">
-      <span className="text-[10px] font-medium uppercase tracking-wider text-gray-500">{label}</span>
+    <div className="flex flex-col gap-0.5">
+      <span className="eyebrow">{label}</span>
       <span className={`tnum font-mono text-sm ${className}`}>{value}</span>
     </div>
   )
@@ -13,11 +13,13 @@ function Stat({ label, value, className = '' }) {
 export default function StatsBar({ item, currency, stats }) {
   const up = (stats?.changePct ?? 0) >= 0
   return (
-    <div className="flex flex-wrap items-center gap-x-8 gap-y-3 border-b border-base-600/80 bg-base-800/30 px-5 py-3.5">
-      {/* Identidad del item */}
+    <div className="flex flex-wrap items-center gap-x-8 gap-y-3 border-b border-white/[0.06] bg-base-900/20 px-5 py-4">
+      {/* Identidad del item — doble bisel */}
       <div className="flex items-center gap-3">
-        <div className="rounded-xl border border-base-600 bg-base-900/60 p-1.5">
-          <ItemIcon src={item?.icon} name={item?.name} size={40} />
+        <div className="shell">
+          <div className="core p-1.5">
+            <ItemIcon src={item?.icon} name={item?.name} size={40} />
+          </div>
         </div>
         <div>
           <div className="text-lg font-bold leading-tight text-gray-50">{item?.name || '—'}</div>
@@ -29,12 +31,12 @@ export default function StatsBar({ item, currency, stats }) {
 
       {/* Precio grande + variación */}
       <div className="flex items-end gap-3">
-        <span className="tnum font-mono text-3xl font-bold leading-none text-white">
+        <span className="tnum font-mono text-[2rem] font-bold leading-none text-white">
           {fmtPrice(stats?.price)}
         </span>
         <span
-          className={`tnum mb-0.5 rounded-md px-2 py-0.5 font-mono text-sm font-semibold ${
-            up ? 'bg-up-soft text-up' : 'bg-down-soft text-down'
+          className={`tnum mb-0.5 rounded-lg px-2 py-0.5 font-mono text-sm font-semibold ring-1 ${
+            up ? 'bg-up-soft text-up ring-up/20' : 'bg-down-soft text-down ring-down/20'
           }`}
         >
           {fmtPct(stats?.changePct)}
