@@ -3,39 +3,18 @@
   "leagueText": "HC Runes of Aldur",
   "realm": "poe2",
   "currency": "exalted",
-  "updated": 1782583281,
+  "updated": 1782589928,
   "items": [
-    {
-      "id": "divine",
-      "apiId": "divine",
-      "name": "Divine Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
-      "category": "currency",
-      "price": 156.63,
-      "changePct": 2.45,
-      "volume": 8388,
-      "high": 149.947,
-      "low": 84.175,
-      "spark": [
-        84.175,
-        88.543,
-        97.505,
-        112.601,
-        120.363,
-        146.361,
-        149.947
-      ]
-    },
     {
       "id": "chaos",
       "apiId": "chaos",
       "name": "Chaos Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
       "category": "currency",
-      "price": 21.246,
-      "changePct": 3.755,
-      "volume": 7121,
-      "high": 20.504,
+      "price": 20.916,
+      "changePct": 3.906,
+      "volume": 7958,
+      "high": 20.534,
       "low": 9.155,
       "spark": [
         9.155,
@@ -44,7 +23,28 @@
         14.043,
         15.841,
         19.762,
-        20.504
+        20.534
+      ]
+    },
+    {
+      "id": "divine",
+      "apiId": "divine",
+      "name": "Divine Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lNb2RWYWx1ZXMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/2986e220b3/CurrencyModValues.png",
+      "category": "currency",
+      "price": 152.735,
+      "changePct": 2.786,
+      "volume": 6199,
+      "high": 150.438,
+      "low": 84.175,
+      "spark": [
+        84.175,
+        88.543,
+        97.505,
+        112.601,
+        120.363,
+        146.361,
+        150.438
       ]
     },
     {
@@ -53,9 +53,9 @@
       "name": "Armourer's Scrap",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBcm1vdXJRdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d5868f596d/CurrencyArmourQuality.png",
       "category": "currency",
-      "price": 1.485,
-      "changePct": -13.969,
-      "volume": 1290,
+      "price": 1.657,
+      "changePct": -13.309,
+      "volume": 2281,
       "high": 1.668,
       "low": 0.79,
       "spark": [
@@ -65,49 +65,7 @@
         0.86,
         1.105,
         1.668,
-        1.435
-      ]
-    },
-    {
-      "id": "alch",
-      "apiId": "alch",
-      "name": "Orb of Alchemy",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png",
-      "category": "currency",
-      "price": 0.726,
-      "changePct": 0.787,
-      "volume": 803,
-      "high": 0.602,
-      "low": 0.466,
-      "spark": [
-        0.555,
-        0.494,
-        0.602,
-        0.473,
-        0.466,
-        0.508,
-        0.512
-      ]
-    },
-    {
-      "id": "greater-chaos-orb",
-      "apiId": "greater-chaos-orb",
-      "name": "Greater Chaos Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
-      "category": "currency",
-      "price": 58.579,
-      "changePct": 11.708,
-      "volume": 573,
-      "high": 53.745,
-      "low": 25.284,
-      "spark": [
-        25.284,
-        26.035,
-        30.059,
-        36.082,
-        39.804,
-        48.112,
-        53.745
+        1.446
       ]
     },
     {
@@ -116,9 +74,9 @@
       "name": "Vaal Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lWYWFsIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/72bc84396c/CurrencyVaal.png",
       "category": "currency",
-      "price": 3.695,
-      "changePct": -1.333,
-      "volume": 469,
+      "price": 3.082,
+      "changePct": -0.976,
+      "volume": 560,
       "high": 3.867,
       "low": 2.056,
       "spark": [
@@ -128,28 +86,28 @@
         3.301,
         3.867,
         3.075,
-        3.034
+        3.045
       ]
     },
     {
-      "id": "gcp",
-      "apiId": "gcp",
-      "name": "Gemcutter's Prism",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png",
+      "id": "alch",
+      "apiId": "alch",
+      "name": "Orb of Alchemy",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9SYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9b80b44821/CurrencyUpgradeToRare.png",
       "category": "currency",
-      "price": 7.309,
-      "changePct": 25.118,
-      "volume": 442,
-      "high": 6.117,
-      "low": 2.69,
+      "price": 0.513,
+      "changePct": 2.165,
+      "volume": 470,
+      "high": 0.602,
+      "low": 0.466,
       "spark": [
-        3.209,
-        3.21,
-        2.69,
-        3.459,
-        3.912,
-        4.889,
-        6.117
+        0.555,
+        0.494,
+        0.602,
+        0.473,
+        0.466,
+        0.508,
+        0.519
       ]
     },
     {
@@ -158,9 +116,9 @@
       "name": "Blacksmith's Whetstone",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/18715ea7be/CurrencyWeaponQuality.png",
       "category": "currency",
-      "price": 0.916,
-      "changePct": -0.67,
-      "volume": 423,
+      "price": 0.635,
+      "changePct": 1.173,
+      "volume": 417,
       "high": 0.701,
       "low": 0.286,
       "spark": [
@@ -170,70 +128,112 @@
         0.403,
         0.701,
         0.597,
-        0.593
+        0.604
       ]
     },
     {
-      "id": "chance",
-      "apiId": "chance",
-      "name": "Orb of Chance",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
-      "category": "currency",
-      "price": 12.93,
-      "changePct": -3.678,
-      "volume": 401,
-      "high": 11.604,
-      "low": 10.198,
+      "id": "breach-splinter",
+      "apiId": "breach-splinter",
+      "name": "Breach Splinter",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4abb17ea8e/BreachstoneSplinter.png",
+      "category": "fragments",
+      "price": 0.167,
+      "changePct": 120,
+      "volume": 402,
+      "high": 0.33,
+      "low": 0.04,
       "spark": [
-        10.85,
-        10.198,
-        10.726,
-        11.604,
-        11.396,
-        11.418,
-        10.998
+        0.043,
+        0.04,
+        0.04,
+        0.082,
+        0.047,
+        0.15,
+        0.33
       ]
     },
     {
-      "id": "regal",
-      "apiId": "regal",
-      "name": "Regal Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+      "id": "greater-chaos-orb",
+      "apiId": "greater-chaos-orb",
+      "name": "Greater Chaos Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
       "category": "currency",
-      "price": 0.606,
-      "changePct": -9.412,
-      "volume": 318,
-      "high": 0.255,
-      "low": 0.151,
+      "price": 58.161,
+      "changePct": 12.209,
+      "volume": 326,
+      "high": 53.986,
+      "low": 25.284,
       "spark": [
-        0.216,
-        0.194,
-        0.151,
-        0.165,
-        0.238,
-        0.255,
-        0.231
+        25.284,
+        26.035,
+        30.059,
+        36.082,
+        39.804,
+        48.112,
+        53.986
       ]
     },
     {
-      "id": "greater-exalted-orb",
-      "apiId": "greater-exalted-orb",
-      "name": "Greater Exalted Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+      "id": "gcp",
+      "apiId": "gcp",
+      "name": "Gemcutter's Prism",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lHZW1RdWFsaXR5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/f4bace18d7/CurrencyGemQuality.png",
       "category": "currency",
-      "price": 8.622,
-      "changePct": 8.771,
-      "volume": 279,
-      "high": 12.901,
-      "low": 7.807,
+      "price": 6.426,
+      "changePct": 26.304,
+      "volume": 322,
+      "high": 6.175,
+      "low": 2.69,
       "spark": [
-        8.4,
-        7.807,
-        8.648,
-        11.297,
-        12.901,
-        10.592,
-        11.521
+        3.209,
+        3.21,
+        2.69,
+        3.459,
+        3.912,
+        4.889,
+        6.175
+      ]
+    },
+    {
+      "id": "transmute",
+      "apiId": "transmute",
+      "name": "Orb of Transmutation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
+      "category": "currency",
+      "price": 0.129,
+      "changePct": 98.824,
+      "volume": 278,
+      "high": 0.169,
+      "low": 0.036,
+      "spark": [
+        0.043,
+        0.051,
+        0.036,
+        0.042,
+        0.104,
+        0.085,
+        0.169
+      ]
+    },
+    {
+      "id": "etcher",
+      "apiId": "etcher",
+      "name": "Arcanist's Etcher",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
+      "category": "currency",
+      "price": 2.53,
+      "changePct": 4.216,
+      "volume": 275,
+      "high": 0.791,
+      "low": 0.535,
+      "spark": [
+        0.563,
+        0.581,
+        0.535,
+        0.627,
+        0.651,
+        0.759,
+        0.791
       ]
     },
     {
@@ -242,9 +242,9 @@
       "name": "Orb of Annulment",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQW5udWxsT3JiIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2daba8ccca/AnnullOrb.png",
       "category": "currency",
-      "price": 57.83,
-      "changePct": -0.765,
-      "volume": 241,
+      "price": 65.372,
+      "changePct": -1.106,
+      "volume": 268,
       "high": 70.724,
       "low": 54.554,
       "spark": [
@@ -254,49 +254,28 @@
         63.112,
         70.724,
         67.708,
-        67.19
+        66.959
       ]
     },
     {
-      "id": "simulacrum-splinter",
-      "apiId": "simulacrum-splinter",
-      "name": "Simulacrum Splinter",
-      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/296e6ffc57/DeliriumSplinter.png",
-      "category": "fragments",
-      "price": 0.769,
-      "changePct": 6.975,
-      "volume": 234,
-      "high": 1.273,
-      "low": 0.608,
+      "id": "greater-exalted-orb",
+      "apiId": "greater-exalted-orb",
+      "name": "Greater Exalted Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
+      "category": "currency",
+      "price": 10.712,
+      "changePct": 7.289,
+      "volume": 248,
+      "high": 12.901,
+      "low": 7.807,
       "spark": [
-        0.744,
-        0.672,
-        0.608,
-        1.085,
-        1.147,
-        1.19,
-        1.273
-      ]
-    },
-    {
-      "id": "breach-splinter",
-      "apiId": "breach-splinter",
-      "name": "Breach Splinter",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lU3BsaW50ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/4abb17ea8e/BreachstoneSplinter.png",
-      "category": "fragments",
-      "price": 0.2,
-      "changePct": 131.333,
-      "volume": 220,
-      "high": 0.347,
-      "low": 0.04,
-      "spark": [
-        0.043,
-        0.04,
-        0.04,
-        0.082,
-        0.047,
-        0.15,
-        0.347
+        8.4,
+        7.807,
+        8.648,
+        11.297,
+        12.901,
+        10.592,
+        11.364
       ]
     },
     {
@@ -305,10 +284,10 @@
       "name": "Orb of Augmentation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
       "category": "currency",
-      "price": 0.11,
-      "changePct": 5.229,
-      "volume": 209,
-      "high": 0.161,
+      "price": 0.762,
+      "changePct": 30.719,
+      "volume": 232,
+      "high": 0.2,
       "low": 0.058,
       "spark": [
         0.058,
@@ -317,7 +296,7 @@
         0.123,
         0.101,
         0.153,
-        0.161
+        0.2
       ]
     },
     {
@@ -342,108 +321,66 @@
       ]
     },
     {
-      "id": "transmute",
-      "apiId": "transmute",
-      "name": "Orb of Transmutation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
+      "id": "regal",
+      "apiId": "regal",
+      "name": "Regal Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
       "category": "currency",
-      "price": 0.082,
-      "changePct": 98.824,
-      "volume": 170,
-      "high": 0.169,
-      "low": 0.036,
+      "price": 0.234,
+      "changePct": -10.196,
+      "volume": 192,
+      "high": 0.255,
+      "low": 0.151,
       "spark": [
-        0.043,
-        0.051,
-        0.036,
-        0.042,
-        0.104,
-        0.085,
-        0.169
+        0.216,
+        0.194,
+        0.151,
+        0.165,
+        0.238,
+        0.255,
+        0.229
       ]
     },
     {
-      "id": "perfect-jewellers-orb",
-      "apiId": "perfect-jewellers-orb",
-      "name": "Perfect Jeweller's Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
+      "id": "chance",
+      "apiId": "chance",
+      "name": "Orb of Chance",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/93c6cc8d5b/CurrencyUpgradeToUnique.png",
       "category": "currency",
-      "price": 286.068,
-      "changePct": 3.247,
-      "volume": 140,
-      "high": 267.384,
-      "low": 148.231,
+      "price": 12.043,
+      "changePct": -2.076,
+      "volume": 176,
+      "high": 11.604,
+      "low": 10.198,
       "spark": [
-        148.231,
-        152.745,
-        166.18,
-        186.886,
-        215.11,
-        258.976,
-        267.384
+        10.85,
+        10.198,
+        10.726,
+        11.604,
+        11.396,
+        11.418,
+        11.181
       ]
     },
     {
-      "id": "greater-orb-of-augmentation",
-      "apiId": "greater-orb-of-augmentation",
-      "name": "Greater Orb of Augmentation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
+      "id": "lesser-jewellers-orb",
+      "apiId": "lesser-jewellers-orb",
+      "name": "Lesser Jeweller's Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b0b9a43ed8/CurrencyRerollSocketNumbers01.png",
       "category": "currency",
-      "price": 0.41,
-      "changePct": 47.495,
-      "volume": 139,
-      "high": 0.795,
-      "low": 0.289,
+      "price": 0.135,
+      "changePct": 87.826,
+      "volume": 126,
+      "high": 0.216,
+      "low": 0.115,
       "spark": [
-        0.471,
-        0.477,
-        0.289,
-        0.376,
-        0.414,
-        0.539,
-        0.795
-      ]
-    },
-    {
-      "id": "perfect-orb-of-transmutation",
-      "apiId": "perfect-orb-of-transmutation",
-      "name": "Perfect Orb of Transmutation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
-      "category": "currency",
-      "price": 26.251,
-      "changePct": 23.714,
-      "volume": 129,
-      "high": 20.638,
-      "low": 7.99,
-      "spark": [
-        9.237,
-        8.111,
-        7.99,
-        8.892,
-        11.507,
-        16.682,
-        20.638
-      ]
-    },
-    {
-      "id": "etcher",
-      "apiId": "etcher",
-      "name": "Arcanist's Etcher",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lXZWFwb25NYWdpY1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/516e8f1131/CurrencyWeaponMagicQuality.png",
-      "category": "currency",
-      "price": 0.932,
-      "changePct": -10.013,
-      "volume": 128,
-      "high": 0.759,
-      "low": 0.535,
-      "spark": [
-        0.563,
-        0.581,
-        0.535,
-        0.627,
-        0.651,
-        0.759,
-        0.683
+        0.164,
+        0.154,
+        0.17,
+        0.178,
+        0.138,
+        0.115,
+        0.216
       ]
     },
     {
@@ -452,9 +389,9 @@
       "name": "Greater Jeweller's Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7dd6ee75be/CurrencyRerollSocketNumbers02.png",
       "category": "currency",
-      "price": 5.401,
-      "changePct": 8.341,
-      "volume": 124,
+      "price": 5.307,
+      "changePct": 8.716,
+      "volume": 122,
       "high": 4.695,
       "low": 3.81,
       "spark": [
@@ -464,28 +401,7 @@
         3.947,
         4.306,
         4.268,
-        4.624
-      ]
-    },
-    {
-      "id": "perfect-orb-of-augmentation",
-      "apiId": "perfect-orb-of-augmentation",
-      "name": "Perfect Orb of Augmentation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
-      "category": "currency",
-      "price": 32.803,
-      "changePct": 10.993,
-      "volume": 91,
-      "high": 26.079,
-      "low": 8.796,
-      "spark": [
-        13.83,
-        8.796,
-        9.775,
-        12.202,
-        17.284,
-        23.496,
-        26.079
+        4.64
       ]
     },
     {
@@ -494,10 +410,10 @@
       "name": "Artificer's Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRFcXVpcG1lbnRTb2NrZXQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5131fd4774/CurrencyAddEquipmentSocket.png",
       "category": "currency",
-      "price": 2.034,
-      "changePct": 63.396,
-      "volume": 88,
-      "high": 2.348,
+      "price": 1.655,
+      "changePct": 57.481,
+      "volume": 119,
+      "high": 2.263,
       "low": 0.543,
       "spark": [
         1.3,
@@ -506,49 +422,28 @@
         1.049,
         0.592,
         1.437,
-        2.348
+        2.263
       ]
     },
     {
-      "id": "greater-regal-orb",
-      "apiId": "greater-regal-orb",
-      "name": "Greater Regal Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+      "id": "perfect-jewellers-orb",
+      "apiId": "perfect-jewellers-orb",
+      "name": "Perfect Jeweller's Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ac6398e6a0/CurrencyRerollSocketNumbers03.png",
       "category": "currency",
-      "price": 5.349,
-      "changePct": 143.094,
-      "volume": 86,
-      "high": 5.122,
-      "low": 1.971,
+      "price": 261.178,
+      "changePct": 3.575,
+      "volume": 118,
+      "high": 268.234,
+      "low": 148.231,
       "spark": [
-        2.72,
-        1.971,
-        2.634,
-        2.832,
-        2.768,
-        2.107,
-        5.122
-      ]
-    },
-    {
-      "id": "bauble",
-      "apiId": "bauble",
-      "name": "Glassblower's Bauble",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
-      "category": "currency",
-      "price": 1.859,
-      "changePct": -0.871,
-      "volume": 64,
-      "high": 1.723,
-      "low": 0.717,
-      "spark": [
-        1.019,
-        0.981,
-        0.717,
-        1.585,
-        1.253,
-        1.723,
-        1.708
+        148.231,
+        152.745,
+        166.18,
+        186.886,
+        215.11,
+        258.976,
+        268.234
       ]
     },
     {
@@ -557,9 +452,9 @@
       "name": "Greater Iron Rune",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5fdc6a72ed/EnhanceRuneTier2.png",
       "category": "runes",
-      "price": 3.114,
-      "changePct": -45.385,
-      "volume": 57,
+      "price": 2.406,
+      "changePct": -46.444,
+      "volume": 101,
       "high": 7.457,
       "low": 2.019,
       "spark": [
@@ -569,7 +464,7 @@
         2.019,
         7.457,
         5.385,
-        2.941
+        2.884
       ]
     },
     {
@@ -578,10 +473,10 @@
       "name": "Greater Orb of Transmutation",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
       "category": "currency",
-      "price": 0.843,
-      "changePct": 83.944,
-      "volume": 51,
-      "high": 1.054,
+      "price": 0.588,
+      "changePct": 72.426,
+      "volume": 68,
+      "high": 0.988,
       "low": 0.48,
       "spark": [
         0.7,
@@ -590,28 +485,28 @@
         0.48,
         0.539,
         0.573,
-        1.054
+        0.988
       ]
     },
     {
-      "id": "perfect-chaos-orb",
-      "apiId": "perfect-chaos-orb",
-      "name": "Perfect Chaos Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+      "id": "bauble",
+      "apiId": "bauble",
+      "name": "Glassblower's Bauble",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lGbGFza1F1YWxpdHkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1cec279e01/CurrencyFlaskQuality.png",
       "category": "currency",
-      "price": 405.887,
-      "changePct": -3.118,
-      "volume": 48,
-      "high": 410.952,
-      "low": 285.523,
+      "price": 3.578,
+      "changePct": 8.532,
+      "volume": 45,
+      "high": 1.87,
+      "low": 0.717,
       "spark": [
-        285.523,
-        348.91,
-        369.549,
-        389.61,
-        363.209,
-        410.952,
-        398.138
+        1.019,
+        0.981,
+        0.717,
+        1.585,
+        1.253,
+        1.723,
+        1.87
       ]
     },
     {
@@ -620,9 +515,9 @@
       "name": "Perfect Exalted Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ad7c366789/CurrencyAddModToRare.png",
       "category": "currency",
-      "price": 461.679,
-      "changePct": -6.434,
-      "volume": 40,
+      "price": 444.393,
+      "changePct": -7.671,
+      "volume": 41,
       "high": 527.787,
       "low": 307.723,
       "spark": [
@@ -632,28 +527,154 @@
         422.734,
         436.178,
         527.787,
-        493.827
+        487.298
       ]
     },
     {
-      "id": "lesser-jewellers-orb",
-      "apiId": "lesser-jewellers-orb",
-      "name": "Lesser Jeweller's Orb",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxTb2NrZXROdW1iZXJzMDEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b0b9a43ed8/CurrencyRerollSocketNumbers01.png",
-      "category": "currency",
-      "price": 0.171,
-      "changePct": 96.522,
-      "volume": 35,
-      "high": 0.226,
-      "low": 0.115,
+      "id": "masterwork-rune",
+      "apiId": "masterwork-rune",
+      "name": "Masterwork Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvVXBncmFkZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3f224b0821/UpgradeRune.png",
+      "category": "runes",
+      "price": 45.579,
+      "changePct": 15.983,
+      "volume": 41,
+      "high": 68.925,
+      "low": 35.373,
       "spark": [
-        0.164,
-        0.154,
-        0.17,
-        0.178,
-        0.138,
-        0.115,
-        0.226
+        41.616,
+        38.671,
+        35.373,
+        42.467,
+        47.719,
+        59.427,
+        68.925
+      ]
+    },
+    {
+      "id": "greater-regal-orb",
+      "apiId": "greater-regal-orb",
+      "name": "Greater Regal Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
+      "category": "currency",
+      "price": 8.25,
+      "changePct": 154.058,
+      "volume": 40,
+      "high": 5.353,
+      "low": 1.971,
+      "spark": [
+        2.72,
+        1.971,
+        2.634,
+        2.832,
+        2.768,
+        2.107,
+        5.353
+      ]
+    },
+    {
+      "id": "greater-orb-of-augmentation",
+      "apiId": "greater-orb-of-augmentation",
+      "name": "Greater Orb of Augmentation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
+      "category": "currency",
+      "price": 0.925,
+      "changePct": 50.093,
+      "volume": 40,
+      "high": 0.809,
+      "low": 0.289,
+      "spark": [
+        0.471,
+        0.477,
+        0.289,
+        0.376,
+        0.414,
+        0.539,
+        0.809
+      ]
+    },
+    {
+      "id": "kulemaks-invitation",
+      "apiId": "kulemaks-invitation",
+      "name": "Kulemak's Invitation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvS3VsZW1ha3NJbnZpdGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c7e6e86681/KulemaksInvitation.png",
+      "category": "fragments",
+      "price": 476.318,
+      "changePct": 27.017,
+      "volume": 34,
+      "high": 455.524,
+      "low": 139.379,
+      "spark": [
+        139.379,
+        155.248,
+        169.064,
+        187.509,
+        278.28,
+        358.632,
+        455.524
+      ]
+    },
+    {
+      "id": "simulacrum-splinter",
+      "apiId": "simulacrum-splinter",
+      "name": "Simulacrum Splinter",
+      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bVNwbGludGVyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/296e6ffc57/DeliriumSplinter.png",
+      "category": "fragments",
+      "price": 0.912,
+      "changePct": -1.008,
+      "volume": 34,
+      "high": 1.19,
+      "low": 0.608,
+      "spark": [
+        0.744,
+        0.672,
+        0.608,
+        1.085,
+        1.147,
+        1.19,
+        1.178
+      ]
+    },
+    {
+      "id": "perfect-chaos-orb",
+      "apiId": "perfect-chaos-orb",
+      "name": "Perfect Chaos Orb",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lSZXJvbGxSYXJlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c0ca392a78/CurrencyRerollRare.png",
+      "category": "currency",
+      "price": 415.891,
+      "changePct": -3.151,
+      "volume": 32,
+      "high": 410.952,
+      "low": 285.523,
+      "spark": [
+        285.523,
+        348.91,
+        369.549,
+        389.61,
+        363.209,
+        410.952,
+        398.004
+      ]
+    },
+    {
+      "id": "perfect-orb-of-transmutation",
+      "apiId": "perfect-orb-of-transmutation",
+      "name": "Perfect Orb of Transmutation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9NYWdpYyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2f8e1ff9f8/CurrencyUpgradeToMagic.png",
+      "category": "currency",
+      "price": 26.858,
+      "changePct": 26.598,
+      "volume": 32,
+      "high": 21.119,
+      "low": 7.99,
+      "spark": [
+        9.237,
+        8.111,
+        7.99,
+        8.892,
+        11.507,
+        16.682,
+        21.119
       ]
     },
     {
@@ -662,11 +683,11 @@
       "name": "Greater Essence of Enhancement",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRGVmZW5jZXNFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a0ed2df82c/GreaterDefencesEssence.png",
       "category": "essences",
-      "price": 2.6,
-      "changePct": -9.405,
-      "volume": 35,
+      "price": 2.806,
+      "changePct": -11.159,
+      "volume": 31,
       "high": 4.982,
-      "low": 3.564,
+      "low": 3.495,
       "spark": [
         4.019,
         4.033,
@@ -674,7 +695,7 @@
         3.912,
         3.633,
         3.934,
-        3.564
+        3.495
       ]
     },
     {
@@ -683,9 +704,9 @@
       "name": "Perfect Regal Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlTWFnaWNUb1JhcmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e8fb148e80/CurrencyUpgradeMagicToRare.png",
       "category": "currency",
-      "price": 41.701,
-      "changePct": -5.294,
-      "volume": 33,
+      "price": 54.4,
+      "changePct": -3.619,
+      "volume": 30,
       "high": 46.864,
       "low": 25.399,
       "spark": [
@@ -695,49 +716,49 @@
         29.32,
         35.622,
         46.864,
-        44.383
+        45.168
       ]
     },
     {
-      "id": "kulemaks-invitation",
-      "apiId": "kulemaks-invitation",
-      "name": "Kulemak's Invitation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvS3VsZW1ha3NJbnZpdGF0aW9uIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c7e6e86681/KulemaksInvitation.png",
+      "id": "simulacrum",
+      "apiId": "simulacrum",
+      "name": "Simulacrum",
+      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bUZyYWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cce2c7e1b3/DeliriumFragment.png",
       "category": "fragments",
-      "price": 481.314,
-      "changePct": 26.322,
-      "volume": 29,
-      "high": 453.031,
-      "low": 139.379,
+      "price": 430.93,
+      "changePct": 7.076,
+      "volume": 28,
+      "high": 427.033,
+      "low": 200.515,
       "spark": [
-        139.379,
-        155.248,
-        169.064,
-        187.509,
-        278.28,
-        358.632,
-        453.031
+        231.913,
+        200.515,
+        252.334,
+        299.334,
+        322.694,
+        398.812,
+        427.033
       ]
     },
     {
-      "id": "masterwork-rune",
-      "apiId": "masterwork-rune",
-      "name": "Masterwork Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvVXBncmFkZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/3f224b0821/UpgradeRune.png",
-      "category": "runes",
-      "price": 67.429,
-      "changePct": 19.989,
-      "volume": 28,
-      "high": 71.306,
-      "low": 35.373,
+      "id": "perfect-orb-of-augmentation",
+      "apiId": "perfect-orb-of-augmentation",
+      "name": "Perfect Orb of Augmentation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lBZGRNb2RUb01hZ2ljIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c8ad0ddc84/CurrencyAddModToMagic.png",
+      "category": "currency",
+      "price": 47.017,
+      "changePct": 19.237,
+      "volume": 24,
+      "high": 28.016,
+      "low": 8.796,
       "spark": [
-        41.616,
-        38.671,
-        35.373,
-        42.467,
-        47.719,
-        59.427,
-        71.306
+        13.83,
+        8.796,
+        9.775,
+        12.202,
+        17.284,
+        23.496,
+        28.016
       ]
     },
     {
@@ -746,10 +767,10 @@
       "name": "Fracturing Orb",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRnJhY3R1cmluZ09yYiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/8b85ed1dc2/FracturingOrb.png",
       "category": "currency",
-      "price": 1891.604,
-      "changePct": 32.868,
-      "volume": 26,
-      "high": 1734.098,
+      "price": 1792.974,
+      "changePct": 33.877,
+      "volume": 23,
+      "high": 1747.275,
       "low": 616.498,
       "spark": [
         616.498,
@@ -758,28 +779,7 @@
         941.296,
         1035.023,
         1305.133,
-        1734.098
-      ]
-    },
-    {
-      "id": "greater-body-rune",
-      "apiId": "greater-body-rune",
-      "name": "Greater Body Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c553b97136/LifeRuneTier2.png",
-      "category": "runes",
-      "price": 2.565,
-      "changePct": -16.57,
-      "volume": 23,
-      "high": 5.951,
-      "low": 2.004,
-      "spark": [
-        3.634,
-        5.951,
-        3.276,
-        2.235,
-        2.19,
-        2.402,
-        2.004
+        1747.275
       ]
     },
     {
@@ -794,27 +794,6 @@
       "high": 0.667,
       "low": 0.667,
       "spark": []
-    },
-    {
-      "id": "simulacrum",
-      "apiId": "simulacrum",
-      "name": "Simulacrum",
-      "icon": "https://web.poecdn.com/gen/image/WzI4LDE0LHsiZiI6IjJESXRlbXMvTWFwcy9EZWxpcml1bUZyYWdtZW50Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cce2c7e1b3/DeliriumFragment.png",
-      "category": "fragments",
-      "price": 437.213,
-      "changePct": 6.55,
-      "volume": 21,
-      "high": 424.934,
-      "low": 200.515,
-      "spark": [
-        231.913,
-        200.515,
-        252.334,
-        299.334,
-        322.694,
-        398.812,
-        424.934
-      ]
     },
     {
       "id": "artificers-shard",
@@ -836,192 +815,24 @@
       ]
     },
     {
-      "id": "greater-desert-rune",
-      "apiId": "greater-desert-rune",
-      "name": "Greater Desert Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
+      "id": "lesser-iron-rune",
+      "apiId": "lesser-iron-rune",
+      "name": "Lesser Iron Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/719e7a07b9/EnhanceRuneTier1.png",
       "category": "runes",
-      "price": 0.875,
-      "changePct": -16.274,
-      "volume": 16,
-      "high": 1.444,
-      "low": 0.508,
-      "spark": [
-        0.752,
-        0.508,
-        0.653,
-        0.584,
-        0.726,
-        1.444,
-        1.209
-      ]
-    },
-    {
-      "id": "essence-of-the-abyss",
-      "apiId": "essence-of-the-abyss",
-      "name": "Essence of the Abyss",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BYnlzc2FsRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a286394d4/AbyssalEssence.png",
-      "category": "essences",
-      "price": 15.4,
-      "changePct": -8.609,
+      "price": 5.661,
+      "changePct": 5.217,
       "volume": 15,
-      "high": 13.022,
-      "low": 4.423,
+      "high": 4.719,
+      "low": 0.989,
       "spark": [
-        4.423,
-        6.893,
-        6.642,
-        8.037,
-        4.566,
-        13.022,
-        11.901
-      ]
-    },
-    {
-      "id": "an-audience-with-the-king",
-      "apiId": "an-audience-with-the-king",
-      "name": "An Audience with the King",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL1Zvb2Rvb0tpbmdFZmZpZ3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0b02c113cc/VoodooKingEffigy.png",
-      "category": "fragments",
-      "price": 141.491,
-      "changePct": 29.568,
-      "volume": 12,
-      "high": 152.38,
-      "low": 49.87,
-      "spark": [
-        57.35,
-        49.87,
-        76.074,
-        104.053,
-        123.327,
-        117.606,
-        152.38
-      ]
-    },
-    {
-      "id": "origin-spark",
-      "apiId": "origin-spark",
-      "name": "Origin Spark",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yU2VlZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/550527bcd4/PrecursorSeed.png",
-      "category": "fragments",
-      "price": 683.475,
-      "changePct": 0.544,
-      "volume": 11,
-      "high": 600.993,
-      "low": 174.593,
-      "spark": [
-        178.903,
-        174.593,
-        203.359,
-        202.742,
-        309.743,
-        597.744,
-        600.993
-      ]
-    },
-    {
-      "id": "greater-robust-rune",
-      "apiId": "greater-robust-rune",
-      "name": "Greater Robust Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb0d433340/StrengthRuneTier3.png",
-      "category": "runes",
-      "price": 2.818,
-      "changePct": -80.05,
-      "volume": 11,
-      "high": 14.667,
-      "low": 0.338,
-      "spark": [
-        3.411,
-        2.104,
-        2.867,
-        3.175,
-        0.338,
-        14.667,
-        2.926
-      ]
-    },
-    {
-      "id": "ancient-crisis-fragment",
-      "apiId": "ancient-crisis-fragment",
-      "name": "Ancient Crisis Fragment",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png",
-      "category": "fragments",
-      "price": 186.63,
-      "changePct": 57.837,
-      "volume": 10,
-      "high": 135.107,
-      "low": 72.935,
-      "spark": [
-        90.247,
-        87.041,
-        96.828,
-        73.91,
-        72.935,
-        85.599,
-        135.107
-      ]
-    },
-    {
-      "id": "farruls-rune-of-the-hunt",
-      "apiId": "farruls-rune-of-the-hunt",
-      "name": "Farrul's Rune of the Hunt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8040a2785b/NewRune9.png",
-      "category": "runes",
-      "price": 34.5,
-      "changePct": -36.733,
-      "volume": 10,
-      "high": 43.868,
-      "low": 10.148,
-      "spark": [
-        11.389,
-        10.148,
-        17.489,
-        20.345,
-        25.733,
-        43.868,
-        27.754
-      ]
-    },
-    {
-      "id": "greater-storm-rune",
-      "apiId": "greater-storm-rune",
-      "name": "Greater Storm Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/47c9eb3f9e/LightningRuneTier2.png",
-      "category": "runes",
-      "price": 3,
-      "changePct": -41.777,
-      "volume": 10,
-      "high": 2.499,
-      "low": 0.74,
-      "spark": [
-        1.147,
-        1.079,
-        1.192,
-        0.74,
-        0.959,
-        2.499,
-        1.455
-      ]
-    },
-    {
-      "id": "lesser-storm-rune",
-      "apiId": "lesser-storm-rune",
-      "name": "Lesser Storm Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c84f26f318/LightningRuneTier1.png",
-      "category": "runes",
-      "price": 1,
-      "changePct": -67.541,
-      "volume": 10,
-      "high": 7.514,
-      "low": 0.936,
-      "spark": [
-        3.187,
-        2.961,
-        0.936,
-        2.359,
-        4.059,
-        7.514,
-        2.439
+        1.136,
+        1.662,
+        0.989,
+        1.219,
+        3.282,
+        4.485,
+        4.719
       ]
     },
     {
@@ -1030,9 +841,9 @@
       "name": "Perfect Essence of Battle",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BdHRhY2tFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4e86ee5d8d/AttackEssencePerfect.png",
       "category": "essences",
-      "price": 27,
-      "changePct": 10.814,
-      "volume": 10,
+      "price": 24.714,
+      "changePct": 8.198,
+      "volume": 14,
       "high": 44.519,
       "low": 24.244,
       "spark": [
@@ -1042,49 +853,175 @@
         24.244,
         33.268,
         30.007,
-        33.252
+        32.467
       ]
     },
     {
-      "id": "breachlord-sac",
-      "apiId": "breachlord-sac",
-      "name": "Breachlord Sac",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9CcmVhY2hsb3JkU2FjIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/07670f51fe/BreachlordSac.png",
-      "category": "fragments",
-      "price": 1514.087,
-      "changePct": 17.946,
-      "volume": 9,
-      "high": 1568.896,
-      "low": 413.963,
+      "id": "hedgewitch-assandras-rune-of-wisdom",
+      "apiId": "hedgewitch-assandras-rune-of-wisdom",
+      "name": "Hedgewitch Assandra's Rune of Wisdom",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ea21196cfb/NewRune1.png",
+      "category": "runes",
+      "price": 77.518,
+      "changePct": 43.209,
+      "volume": 13,
+      "high": 53.381,
+      "low": 28.848,
       "spark": [
-        413.963,
-        448.411,
-        638.552,
-        713.726,
-        769.182,
-        1330.187,
-        1568.896
+        29.102,
+        28.848,
+        40.537,
+        51.321,
+        47.669,
+        37.275,
+        53.381
       ]
     },
     {
-      "id": "weathered-crisis-fragment",
-      "apiId": "weathered-crisis-fragment",
-      "name": "Weathered Crisis Fragment",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png",
+      "id": "faded-crisis-fragment",
+      "apiId": "faded-crisis-fragment",
+      "name": "Faded Crisis Fragment",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png",
       "category": "fragments",
-      "price": 184.741,
-      "changePct": 19.983,
-      "volume": 9,
-      "high": 144.408,
-      "low": 70.829,
+      "price": 916.409,
+      "changePct": 48.84,
+      "volume": 12,
+      "high": 910.061,
+      "low": 284.187,
       "spark": [
-        89.937,
-        86.8,
-        95.281,
-        70.829,
-        81.342,
-        120.357,
-        144.408
+        334.722,
+        284.187,
+        329.957,
+        407.742,
+        385.885,
+        611.436,
+        910.061
+      ]
+    },
+    {
+      "id": "greater-storm-rune",
+      "apiId": "greater-storm-rune",
+      "name": "Greater Storm Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/47c9eb3f9e/LightningRuneTier2.png",
+      "category": "runes",
+      "price": 4.319,
+      "changePct": -34.254,
+      "volume": 12,
+      "high": 2.499,
+      "low": 0.74,
+      "spark": [
+        1.147,
+        1.079,
+        1.192,
+        0.74,
+        0.959,
+        2.499,
+        1.643
+      ]
+    },
+    {
+      "id": "perfect-essence-of-sorcery",
+      "apiId": "perfect-essence-of-sorcery",
+      "name": "Perfect Essence of Sorcery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5aa3698010/CasterEssencePerfect.png",
+      "category": "essences",
+      "price": 13.5,
+      "changePct": -24.943,
+      "volume": 12,
+      "high": 26.504,
+      "low": 4.322,
+      "spark": [
+        4.322,
+        13.833,
+        6.765,
+        26.504,
+        20.312,
+        21.958,
+        16.481
+      ]
+    },
+    {
+      "id": "greater-essence-of-ice",
+      "apiId": "greater-essence-of-ice",
+      "name": "Greater Essence of Ice",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e5224bace0/GreaterColdEssence.png",
+      "category": "essences",
+      "price": 0.5,
+      "changePct": -8.739,
+      "volume": 12,
+      "high": 1.522,
+      "low": 0.95,
+      "spark": [
+        1.2,
+        0.95,
+        1.306,
+        1,
+        1,
+        1.522,
+        1.389
+      ]
+    },
+    {
+      "id": "greater-essence-of-ruin",
+      "apiId": "greater-essence-of-ruin",
+      "name": "Greater Essence of Ruin",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
+      "category": "essences",
+      "price": 10.364,
+      "changePct": 10.416,
+      "volume": 11,
+      "high": 23.693,
+      "low": 7.522,
+      "spark": [
+        13.593,
+        9.181,
+        12.145,
+        7.522,
+        10.445,
+        21.458,
+        23.693
+      ]
+    },
+    {
+      "id": "astrids-creativity",
+      "apiId": "astrids-creativity",
+      "name": "Astrid's Creativity",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/96e9eecf72/GameWarpRune1.png",
+      "category": "runes",
+      "price": 509.116,
+      "changePct": 11.259,
+      "volume": 9,
+      "high": 1104.919,
+      "low": 453.816,
+      "spark": [
+        466.566,
+        1104.919,
+        780.123,
+        892.791,
+        559.311,
+        453.816,
+        504.913
+      ]
+    },
+    {
+      "id": "lesser-robust-rune",
+      "apiId": "lesser-robust-rune",
+      "name": "Lesser Robust Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a90800a313/StrengthRuneTier1.png",
+      "category": "runes",
+      "price": 5,
+      "changePct": -62.264,
+      "volume": 9,
+      "high": 13.25,
+      "low": 0.375,
+      "spark": [
+        4.667,
+        2,
+        0.375,
+        1.5,
+        3.648,
+        13.25,
+        5
       ]
     },
     {
@@ -1109,169 +1046,66 @@
       ]
     },
     {
-      "id": "essence-of-the-breach",
-      "apiId": "essence-of-the-breach",
-      "name": "Essence of the Breach",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9CcmVhY2hFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/60e81fa5eb/BreachEssence.png",
-      "category": "essences",
-      "price": 19.556,
-      "changePct": -59.843,
-      "volume": 9,
-      "high": 46.38,
-      "low": 9.149,
-      "spark": [
-        13.461,
-        12.904,
-        16.476,
-        9.149,
-        22.015,
-        46.38,
-        18.625
-      ]
-    },
-    {
-      "id": "faded-crisis-fragment",
-      "apiId": "faded-crisis-fragment",
-      "name": "Faded Crisis Fragment",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5709c39ee7/PinnacleKey2.png",
-      "category": "fragments",
-      "price": 1018.093,
-      "changePct": 48.501,
-      "volume": 8,
-      "high": 907.987,
-      "low": 284.187,
-      "spark": [
-        334.722,
-        284.187,
-        329.957,
-        407.742,
-        385.885,
-        611.436,
-        907.987
-      ]
-    },
-    {
-      "id": "origin-cradle",
-      "apiId": "origin-cradle",
-      "name": "Origin Cradle",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yRWdnIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c386e361d1/PrecursorEgg.png",
-      "category": "fragments",
-      "price": 626.519,
-      "changePct": -7.019,
-      "volume": 8,
-      "high": 554.106,
-      "low": 364.398,
-      "spark": [
-        392.899,
-        364.398,
-        388.773,
-        427.122,
-        446.895,
-        554.106,
-        515.214
-      ]
-    },
-    {
-      "id": "warding-rune-of-reinforcement",
-      "apiId": "warding-rune-of-reinforcement",
-      "name": "Warding Rune of Reinforcement",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9dad170d35/RunicWard1.png",
-      "category": "runes",
-      "price": 61.157,
-      "changePct": 374.252,
-      "volume": 8,
-      "high": 27.573,
-      "low": 3.667,
-      "spark": [
-        3.667,
-        3.742,
-        14.574,
-        14.271,
-        4.231,
-        5.814,
-        27.573
-      ]
-    },
-    {
-      "id": "perfect-body-rune",
-      "apiId": "perfect-body-rune",
-      "name": "Perfect Body Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWZlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/77d2019212/PerfectRuneLife.png",
-      "category": "runes",
-      "price": 141.852,
-      "changePct": -56.762,
-      "volume": 7,
-      "high": 328.073,
-      "low": 105.983,
-      "spark": [
-        261.299,
-        301.303,
-        105.983,
-        328.073,
-        141.852
-      ]
-    },
-    {
-      "id": "hedgewitch-assandras-rune-of-wisdom",
-      "apiId": "hedgewitch-assandras-rune-of-wisdom",
-      "name": "Hedgewitch Assandra's Rune of Wisdom",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ea21196cfb/NewRune1.png",
-      "category": "runes",
-      "price": 63.714,
-      "changePct": 39.579,
-      "volume": 7,
-      "high": 52.028,
-      "low": 28.848,
-      "spark": [
-        29.102,
-        28.848,
-        40.537,
-        51.321,
-        47.669,
-        37.275,
-        52.028
-      ]
-    },
-    {
-      "id": "saqawals-rune-of-the-sky",
-      "apiId": "saqawals-rune-of-the-sky",
-      "name": "Saqawal's Rune of the Sky",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c3f68cf1c/NewRune2.png",
-      "category": "runes",
-      "price": 27.143,
-      "changePct": 8.964,
-      "volume": 7,
-      "high": 39.951,
-      "low": 12.432,
-      "spark": [
-        17.457,
-        12.432,
-        21.654,
-        19.649,
-        39.951,
-        31.503,
-        34.327
-      ]
-    },
-    {
-      "id": "greater-glacial-rune",
-      "apiId": "greater-glacial-rune",
-      "name": "Greater Glacial Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9770dc929d/ColdRuneTier2.png",
+      "id": "greater-body-rune",
+      "apiId": "greater-body-rune",
+      "name": "Greater Body Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlmZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/c553b97136/LifeRuneTier2.png",
       "category": "runes",
       "price": 2,
-      "changePct": -17.807,
-      "volume": 7,
-      "high": 2.499,
-      "low": 0.73,
+      "changePct": -14.363,
+      "volume": 9,
+      "high": 5.951,
+      "low": 2.057,
       "spark": [
-        1.576,
-        1.203,
-        1.338,
-        0.73,
-        2.163,
-        2.499,
-        2.054
+        3.634,
+        5.951,
+        3.276,
+        2.235,
+        2.19,
+        2.402,
+        2.057
+      ]
+    },
+    {
+      "id": "greater-essence-of-flames",
+      "apiId": "greater-essence-of-flames",
+      "name": "Greater Essence of Flames",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
+      "category": "essences",
+      "price": 0.5,
+      "changePct": -12.5,
+      "volume": 8,
+      "high": 1.5,
+      "low": 0.794,
+      "spark": [
+        0.794,
+        0.875,
+        1.333,
+        1.5,
+        1,
+        1,
+        0.875
+      ]
+    },
+    {
+      "id": "countess-seskes-rune-of-archery",
+      "apiId": "countess-seskes-rune-of-archery",
+      "name": "Countess Seske's Rune of Archery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e738ce3cb/NewRune14.png",
+      "category": "runes",
+      "price": 38.345,
+      "changePct": 33.859,
+      "volume": 7,
+      "high": 39.404,
+      "low": 21.061,
+      "spark": [
+        28.061,
+        26.537,
+        21.061,
+        29.215,
+        24.793,
+        29.437,
+        39.404
       ]
     },
     {
@@ -1296,66 +1130,24 @@
       ]
     },
     {
-      "id": "greater-essence-of-opulence",
-      "apiId": "greater-essence-of-opulence",
-      "name": "Greater Essence of Opulence",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
-      "category": "essences",
-      "price": 13,
-      "changePct": 2.265,
-      "volume": 7,
-      "high": 22.174,
-      "low": 9.699,
-      "spark": [
-        9.877,
-        9.699,
-        12.137,
-        21.466,
-        22.174,
-        13.508,
-        13.814
-      ]
-    },
-    {
-      "id": "greater-essence-of-abrasion",
-      "apiId": "greater-essence-of-abrasion",
-      "name": "Greater Essence of Abrasion",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png",
-      "category": "essences",
-      "price": 9.143,
-      "changePct": -39.45,
-      "volume": 7,
-      "high": 13.31,
-      "low": 2.706,
-      "spark": [
-        2.827,
-        4.17,
-        2.706,
-        13.31,
-        8.78,
-        11.156,
-        6.755
-      ]
-    },
-    {
-      "id": "serles-triumph",
-      "apiId": "serles-triumph",
-      "name": "Serle's Triumph",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a1b9c272c/GameWarpRune2.png",
-      "category": "runes",
-      "price": 100.167,
-      "changePct": 73.172,
+      "id": "chance-shard",
+      "apiId": "chance-shard",
+      "name": "Chance Shard",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9828a70270/CurrencyUpgradeToUniqueShard.png",
+      "category": "currency",
+      "price": 1,
+      "changePct": 27.916,
       "volume": 6,
-      "high": 128.698,
-      "low": 59.714,
+      "high": 0.976,
+      "low": 0.702,
       "spark": [
-        69.741,
-        63.377,
-        59.714,
-        89.483,
-        93.776,
-        74.318,
-        128.698
+        0.727,
+        0.938,
+        0.702,
+        0.762,
+        0.808,
+        0.763,
+        0.976
       ]
     },
     {
@@ -1380,13 +1172,55 @@
       ]
     },
     {
+      "id": "farruls-rune-of-the-hunt",
+      "apiId": "farruls-rune-of-the-hunt",
+      "name": "Farrul's Rune of the Hunt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8040a2785b/NewRune9.png",
+      "category": "runes",
+      "price": 30.333,
+      "changePct": -35.447,
+      "volume": 6,
+      "high": 43.868,
+      "low": 10.148,
+      "spark": [
+        11.389,
+        10.148,
+        17.489,
+        20.345,
+        25.733,
+        43.868,
+        28.318
+      ]
+    },
+    {
+      "id": "saqawals-rune-of-the-sky",
+      "apiId": "saqawals-rune-of-the-sky",
+      "name": "Saqawal's Rune of the Sky",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/7c3f68cf1c/NewRune2.png",
+      "category": "runes",
+      "price": 27.667,
+      "changePct": 5.225,
+      "volume": 6,
+      "high": 39.951,
+      "low": 12.432,
+      "spark": [
+        17.457,
+        12.432,
+        21.654,
+        19.649,
+        39.951,
+        31.503,
+        33.149
+      ]
+    },
+    {
       "id": "farruls-rune-of-the-chase",
       "apiId": "farruls-rune-of-the-chase",
       "name": "Farrul's Rune of the Chase",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5029b70d64/NewRune5.png",
       "category": "runes",
-      "price": 21.5,
-      "changePct": -2.234,
+      "price": 23.5,
+      "changePct": -5.954,
       "volume": 6,
       "high": 37.152,
       "low": 17.846,
@@ -1397,7 +1231,49 @@
         34.843,
         37.152,
         34.601,
-        33.828
+        32.541
+      ]
+    },
+    {
+      "id": "desert-rune",
+      "apiId": "desert-rune",
+      "name": "Desert Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png",
+      "category": "runes",
+      "price": 3,
+      "changePct": 3.669,
+      "volume": 6,
+      "high": 3,
+      "low": 2.11,
+      "spark": [
+        2.11,
+        2.904,
+        2.778,
+        3,
+        2.762,
+        2.889,
+        2.995
+      ]
+    },
+    {
+      "id": "lesser-glacial-rune",
+      "apiId": "lesser-glacial-rune",
+      "name": "Lesser Glacial Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/69c7e6d2a3/ColdRuneTier1.png",
+      "category": "runes",
+      "price": 2.667,
+      "changePct": -76.159,
+      "volume": 6,
+      "high": 4.077,
+      "low": 0.687,
+      "spark": [
+        1.739,
+        1.336,
+        0.687,
+        0.988,
+        1.958,
+        4.077,
+        0.972
       ]
     },
     {
@@ -1417,66 +1293,45 @@
       ]
     },
     {
-      "id": "chance-shard",
-      "apiId": "chance-shard",
-      "name": "Chance Shard",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQ3VycmVuY3lVcGdyYWRlVG9VbmlxdWVTaGFyZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9828a70270/CurrencyUpgradeToUniqueShard.png",
-      "category": "currency",
-      "price": 1,
-      "changePct": 27.392,
-      "volume": 5,
-      "high": 0.972,
-      "low": 0.702,
-      "spark": [
-        0.727,
-        0.938,
-        0.702,
-        0.762,
-        0.808,
-        0.763,
-        0.972
-      ]
-    },
-    {
-      "id": "breachstone",
-      "apiId": "breachstone",
-      "name": "Breachstone",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d60587d724/Breachstone.png",
-      "category": "fragments",
-      "price": 112.2,
-      "changePct": 42.554,
-      "volume": 5,
-      "high": 117.787,
-      "low": 31.679,
-      "spark": [
-        32.429,
-        37.796,
-        31.679,
-        48.046,
-        49.694,
-        82.626,
-        117.787
-      ]
-    },
-    {
-      "id": "cadigans-epiphany",
-      "apiId": "cadigans-epiphany",
-      "name": "Cadigan's Epiphany",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884c6d6f83/GameWarpRune3.png",
+      "id": "rune-of-vitality",
+      "apiId": "rune-of-vitality",
+      "name": "Rune of Vitality",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6c7659e613/EarlyMythicRune1.png",
       "category": "runes",
-      "price": 88.726,
-      "changePct": -30.493,
+      "price": 5.6,
+      "changePct": -46.646,
       "volume": 5,
-      "high": 350.26,
-      "low": 125.734,
+      "high": 17.718,
+      "low": 8.956,
       "spark": [
-        200.688,
-        188.454,
-        206.204,
-        350.26,
-        189.519,
-        180.895,
-        125.734
+        17.718,
+        16.815,
+        13.333,
+        9.429,
+        13.781,
+        16.786,
+        8.956
+      ]
+    },
+    {
+      "id": "glacial-rune",
+      "apiId": "glacial-rune",
+      "name": "Glacial Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
+      "category": "runes",
+      "price": 3,
+      "changePct": 14.679,
+      "volume": 5,
+      "high": 2.711,
+      "low": 0.95,
+      "spark": [
+        2.143,
+        1.071,
+        0.95,
+        2.275,
+        2.375,
+        2.364,
+        2.711
       ]
     },
     {
@@ -1496,6 +1351,27 @@
       ]
     },
     {
+      "id": "greater-glacial-rune",
+      "apiId": "greater-glacial-rune",
+      "name": "Greater Glacial Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9770dc929d/ColdRuneTier2.png",
+      "category": "runes",
+      "price": 1,
+      "changePct": -21.529,
+      "volume": 5,
+      "high": 2.499,
+      "low": 0.73,
+      "spark": [
+        1.576,
+        1.203,
+        1.338,
+        0.73,
+        2.163,
+        2.499,
+        1.961
+      ]
+    },
+    {
       "id": "greater-stone-rune",
       "apiId": "greater-stone-rune",
       "name": "Greater Stone Rune",
@@ -1512,6 +1388,69 @@
         1,
         1,
         0.4
+      ]
+    },
+    {
+      "id": "greater-essence-of-grounding",
+      "apiId": "greater-essence-of-grounding",
+      "name": "Greater Essence of Grounding",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
+      "category": "essences",
+      "price": 5.6,
+      "changePct": -21.278,
+      "volume": 5,
+      "high": 5.964,
+      "low": 2.403,
+      "spark": [
+        3.276,
+        5.249,
+        2.403,
+        2.709,
+        4.881,
+        5.964,
+        4.695
+      ]
+    },
+    {
+      "id": "perfect-essence-of-enhancement",
+      "apiId": "perfect-essence-of-enhancement",
+      "name": "Perfect Essence of Enhancement",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd5b00f215/DefencesEssencePerfect.png",
+      "category": "essences",
+      "price": 5,
+      "changePct": 19.575,
+      "volume": 5,
+      "high": 9.536,
+      "low": 3.776,
+      "spark": [
+        3.776,
+        9.536,
+        4.01,
+        3.98,
+        7.954,
+        7.806,
+        9.334
+      ]
+    },
+    {
+      "id": "greater-essence-of-abrasion",
+      "apiId": "greater-essence-of-abrasion",
+      "name": "Greater Essence of Abrasion",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUGh5c2ljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/a28c932def/GreaterPhysicalEssence.png",
+      "category": "essences",
+      "price": 5,
+      "changePct": -41.431,
+      "volume": 5,
+      "high": 13.31,
+      "low": 2.706,
+      "spark": [
+        2.827,
+        4.17,
+        2.706,
+        13.31,
+        8.78,
+        11.156,
+        6.534
       ]
     },
     {
@@ -1536,24 +1475,66 @@
       ]
     },
     {
-      "id": "astrids-creativity",
-      "apiId": "astrids-creativity",
-      "name": "Astrid's Creativity",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/96e9eecf72/GameWarpRune1.png",
-      "category": "runes",
-      "price": 509.046,
-      "changePct": 11.326,
+      "id": "origin-cradle",
+      "apiId": "origin-cradle",
+      "name": "Origin Cradle",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yRWdnIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c386e361d1/PrecursorEgg.png",
+      "category": "fragments",
+      "price": 610.939,
+      "changePct": -6.42,
       "volume": 4,
-      "high": 1104.919,
-      "low": 453.816,
+      "high": 554.106,
+      "low": 364.398,
       "spark": [
-        466.566,
-        1104.919,
-        780.123,
-        892.791,
-        559.311,
-        453.816,
-        505.216
+        392.899,
+        364.398,
+        388.773,
+        427.122,
+        446.895,
+        554.106,
+        518.532
+      ]
+    },
+    {
+      "id": "ancient-crisis-fragment",
+      "apiId": "ancient-crisis-fragment",
+      "name": "Ancient Crisis Fragment",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/ef329c74d1/PinnacleKey1.png",
+      "category": "fragments",
+      "price": 152.735,
+      "changePct": 60.37,
+      "volume": 4,
+      "high": 137.275,
+      "low": 72.935,
+      "spark": [
+        90.247,
+        87.041,
+        96.828,
+        73.91,
+        72.935,
+        85.599,
+        137.275
+      ]
+    },
+    {
+      "id": "an-audience-with-the-king",
+      "apiId": "an-audience-with-the-king",
+      "name": "An Audience with the King",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUml0dWFsL1Zvb2Rvb0tpbmdFZmZpZ3kiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0b02c113cc/VoodooKingEffigy.png",
+      "category": "fragments",
+      "price": 141.117,
+      "changePct": 29.03,
+      "volume": 4,
+      "high": 151.747,
+      "low": 49.87,
+      "spark": [
+        57.35,
+        49.87,
+        76.074,
+        104.053,
+        123.327,
+        117.606,
+        151.747
       ]
     },
     {
@@ -1572,87 +1553,45 @@
       ]
     },
     {
-      "id": "kolrs-hunt",
-      "apiId": "kolrs-hunt",
-      "name": "Kolr's Hunt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRGV4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/27b68d6b1e/GameWarpRuneDex.png",
+      "id": "the-greatwolfs-rune-of-willpower",
+      "apiId": "the-greatwolfs-rune-of-willpower",
+      "name": "The Greatwolf's Rune of Willpower",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
       "category": "runes",
-      "price": 69.25,
-      "changePct": 39.673,
+      "price": 45.25,
+      "changePct": 63.934,
       "volume": 4,
-      "high": 88.032,
-      "low": 30.161,
+      "high": 34.759,
+      "low": 12.824,
       "spark": [
-        64.459,
-        30.161,
-        51.003,
-        66.286,
-        58.236,
-        63.027,
-        88.032
+        21.386,
+        29.815,
+        25.275,
+        20.324,
+        12.824,
+        21.203,
+        34.759
       ]
     },
     {
-      "id": "craiceanns-rune-of-warding",
-      "apiId": "craiceanns-rune-of-warding",
-      "name": "Craiceann's Rune of Warding",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
+      "id": "fenumus-rune-of-agony",
+      "apiId": "fenumus-rune-of-agony",
+      "name": "Fenumus' Rune of Agony",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
       "category": "runes",
-      "price": 23.25,
-      "changePct": -35.26,
+      "price": 22.5,
+      "changePct": 36.713,
       "volume": 4,
-      "high": 38.262,
-      "low": 13.419,
+      "high": 18.552,
+      "low": 10.46,
       "spark": [
-        13.419,
-        20.905,
-        24.919,
-        26.779,
-        18.143,
-        38.262,
-        24.771
-      ]
-    },
-    {
-      "id": "rune-of-accumulation",
-      "apiId": "rune-of-accumulation",
-      "name": "Rune of Accumulation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b26a551271/EarlyMythicRune6.png",
-      "category": "runes",
-      "price": 13.25,
-      "changePct": 58.34,
-      "volume": 4,
-      "high": 7.917,
-      "low": 5,
-      "spark": [
-        5.278,
-        6.47,
-        5.857,
-        6,
-        6.938,
-        5,
-        7.917
-      ]
-    },
-    {
-      "id": "glacial-rune",
-      "apiId": "glacial-rune",
-      "name": "Glacial Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/499bfe179a/ColdRune.png",
-      "category": "runes",
-      "price": 3,
-      "changePct": 6.557,
-      "volume": 4,
-      "high": 2.519,
-      "low": 0.95,
-      "spark": [
-        2.143,
-        1.071,
-        0.95,
-        2.275,
-        2.375,
-        2.364,
-        2.519
+        10.46,
+        14.974,
+        17.284,
+        11.804,
+        13.392,
+        13.57,
+        18.552
       ]
     },
     {
@@ -1672,45 +1611,192 @@
       ]
     },
     {
-      "id": "greater-inspiration-rune",
-      "apiId": "greater-inspiration-rune",
-      "name": "Greater Inspiration Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
+      "id": "greater-desert-rune",
+      "apiId": "greater-desert-rune",
+      "name": "Greater Desert Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/2c6986b94c/FireRuneTier2.png",
       "category": "runes",
-      "price": 0.5,
-      "changePct": 199.401,
+      "price": 1,
+      "changePct": -17.798,
       "volume": 4,
-      "high": 1,
-      "low": 0.167,
+      "high": 1.444,
+      "low": 0.508,
       "spark": [
-        0.575,
-        0.933,
-        1,
-        0.5,
-        0.167,
-        0.167,
-        0.5
+        0.752,
+        0.508,
+        0.653,
+        0.584,
+        0.726,
+        1.444,
+        1.187
       ]
     },
     {
-      "id": "greater-essence-of-ruin",
-      "apiId": "greater-essence-of-ruin",
-      "name": "Greater Essence of Ruin",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ2hhb3NFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5c71ec7418/GreaterChaosEssence.png",
-      "category": "essences",
-      "price": 18,
-      "changePct": 17.844,
+      "id": "greater-vision-rune",
+      "apiId": "greater-vision-rune",
+      "name": "Greater Vision Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/88ab9b96b4/AccuracyRuneTier2.png",
+      "category": "runes",
+      "price": 0.5,
+      "changePct": 33.333,
       "volume": 4,
-      "high": 25.287,
-      "low": 7.522,
+      "high": 0.5,
+      "low": 0.333,
       "spark": [
-        13.593,
-        9.181,
-        12.145,
-        7.522,
-        10.445,
-        21.458,
-        25.287
+        0.483,
+        0.462,
+        0.5,
+        0.5,
+        0.4,
+        0.333,
+        0.444
+      ]
+    },
+    {
+      "id": "lesser-storm-rune",
+      "apiId": "lesser-storm-rune",
+      "name": "Lesser Storm Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVRpZXIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c84f26f318/LightningRuneTier1.png",
+      "category": "runes",
+      "price": 0.5,
+      "changePct": -70.775,
+      "volume": 4,
+      "high": 7.514,
+      "low": 0.936,
+      "spark": [
+        3.187,
+        2.961,
+        0.936,
+        2.359,
+        4.059,
+        7.514,
+        2.196
+      ]
+    },
+    {
+      "id": "perfect-essence-of-seeking",
+      "apiId": "perfect-essence-of-seeking",
+      "name": "Perfect Essence of Seeking",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3d5125e9d6/CriticalEssencePerfect.png",
+      "category": "essences",
+      "price": 57.75,
+      "changePct": 20.278,
+      "volume": 4,
+      "high": 59.534,
+      "low": 16.693,
+      "spark": [
+        16.693,
+        17.446,
+        16.833,
+        17.309,
+        52.88,
+        49.497,
+        59.534
+      ]
+    },
+    {
+      "id": "essence-of-the-abyss",
+      "apiId": "essence-of-the-abyss",
+      "name": "Essence of the Abyss",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BYnlzc2FsRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3a286394d4/AbyssalEssence.png",
+      "category": "essences",
+      "price": 12.75,
+      "changePct": -9.599,
+      "volume": 4,
+      "high": 13.022,
+      "low": 4.423,
+      "spark": [
+        4.423,
+        6.893,
+        6.642,
+        8.037,
+        4.566,
+        13.022,
+        11.772
+      ]
+    },
+    {
+      "id": "perfect-essence-of-abrasion",
+      "apiId": "perfect-essence-of-abrasion",
+      "name": "Perfect Essence of Abrasion",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
+      "category": "essences",
+      "price": 4.5,
+      "changePct": -40.963,
+      "volume": 4,
+      "high": 28.816,
+      "low": 3.385,
+      "spark": [
+        5.636,
+        3.385,
+        5.389,
+        12.008,
+        28.816,
+        7.287,
+        4.302
+      ]
+    },
+    {
+      "id": "lesser-essence-of-abrasion",
+      "apiId": "lesser-essence-of-abrasion",
+      "name": "Lesser Essence of Abrasion",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21723a9133/PhysicalEssenceLesser.png",
+      "category": "essences",
+      "price": 3,
+      "changePct": 25.993,
+      "volume": 4,
+      "high": 13,
+      "low": 6.478,
+      "spark": [
+        6.478,
+        7.397,
+        7.256,
+        7.985,
+        11.737,
+        10.318,
+        13
+      ]
+    },
+    {
+      "id": "essence-of-the-body",
+      "apiId": "essence-of-the-body",
+      "name": "Essence of the Body",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/638d6c4cbe/LifeEssence.png",
+      "category": "essences",
+      "price": 1.5,
+      "changePct": -92.436,
+      "volume": 4,
+      "high": 15.429,
+      "low": 1.167,
+      "spark": [
+        9.591,
+        8.903,
+        9.689,
+        10.792,
+        6.6,
+        15.429,
+        1.167
+      ]
+    },
+    {
+      "id": "greater-essence-of-command",
+      "apiId": "greater-essence-of-command",
+      "name": "Greater Essence of Command",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQWxseUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/55b6ba3361/GreaterAllyEssence.png",
+      "category": "essences",
+      "price": 1,
+      "changePct": 108.507,
+      "volume": 4,
+      "high": 10,
+      "low": 1.933,
+      "spark": [
+        6.897,
+        6.926,
+        1.933,
+        3.578,
+        4.494,
+        4.796,
+        10
       ]
     },
     {
@@ -1734,150 +1820,66 @@
       ]
     },
     {
-      "id": "the-greatwolfs-rune-of-claws",
-      "apiId": "the-greatwolfs-rune-of-claws",
-      "name": "The Greatwolf's Rune of Claws",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ae83a7c954/NewRune20.png",
-      "category": "runes",
-      "price": 111.086,
-      "changePct": -3.584,
+      "id": "origin-spark",
+      "apiId": "origin-spark",
+      "name": "Origin Spark",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yU2VlZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/550527bcd4/PrecursorSeed.png",
+      "category": "fragments",
+      "price": 763.674,
+      "changePct": 2.832,
       "volume": 3,
-      "high": 28.264,
-      "low": 10.688,
+      "high": 614.672,
+      "low": 174.593,
       "spark": [
-        21.31,
-        10.688,
-        27.305,
-        14.925,
-        19.836,
-        28.264,
-        27.251
+        178.903,
+        174.593,
+        203.359,
+        202.742,
+        309.743,
+        597.744,
+        614.672
       ]
     },
     {
-      "id": "rune-of-the-blossom",
-      "apiId": "rune-of-the-blossom",
-      "name": "Rune of the Blossom",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b36a935747/EarlyMythicRune9.png",
-      "category": "runes",
-      "price": 66.667,
-      "changePct": 258.846,
+      "id": "weathered-crisis-fragment",
+      "apiId": "weathered-crisis-fragment",
+      "name": "Weathered Crisis Fragment",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9QaW5uYWNsZUtleTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/32e6544250/PinnacleKey3.png",
+      "category": "fragments",
+      "price": 140.49,
+      "changePct": 20.36,
       "volume": 3,
-      "high": 73.829,
-      "low": 12.011,
+      "high": 144.862,
+      "low": 70.829,
       "spark": [
-        15.884,
-        12.911,
-        12.011,
-        21.884,
-        14.295,
-        20.574,
-        73.829
+        89.937,
+        86.8,
+        95.281,
+        70.829,
+        81.342,
+        120.357,
+        144.862
       ]
     },
     {
-      "id": "lesser-desert-rune",
-      "apiId": "lesser-desert-rune",
-      "name": "Lesser Desert Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
+      "id": "craiceanns-rune-of-warding",
+      "apiId": "craiceanns-rune-of-warding",
+      "name": "Craiceann's Rune of Warding",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTYiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/677fca20e0/NewRune6.png",
       "category": "runes",
-      "price": 25,
-      "changePct": 239.798,
+      "price": 20,
+      "changePct": -36.313,
       "volume": 3,
-      "high": 20.5,
-      "low": 0.652,
+      "high": 38.262,
+      "low": 13.419,
       "spark": [
-        1.69,
-        2.481,
-        0.652,
-        0.893,
-        1.143,
-        6.033,
-        20.5
-      ]
-    },
-    {
-      "id": "fenumus-rune-of-agony",
-      "apiId": "fenumus-rune-of-agony",
-      "name": "Fenumus' Rune of Agony",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/b8711ef6c2/NewRune3.png",
-      "category": "runes",
-      "price": 23.333,
-      "changePct": 34.289,
-      "volume": 3,
-      "high": 18.223,
-      "low": 10.46,
-      "spark": [
-        10.46,
-        14.974,
-        17.284,
-        11.804,
-        13.392,
-        13.57,
-        18.223
-      ]
-    },
-    {
-      "id": "rune-of-the-hunt",
-      "apiId": "rune-of-the-hunt",
-      "name": "Rune of the Hunt",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5247f756b7/EarlyMythicRune2.png",
-      "category": "runes",
-      "price": 8.333,
-      "changePct": 37.156,
-      "volume": 3,
-      "high": 8.656,
-      "low": 3.819,
-      "spark": [
-        3.838,
-        4.275,
-        6.333,
-        5.167,
-        8.656,
-        3.819,
-        5.238
-      ]
-    },
-    {
-      "id": "storm-rune",
-      "apiId": "storm-rune",
-      "name": "Storm Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
-      "category": "runes",
-      "price": 6.667,
-      "changePct": 76.88,
-      "volume": 3,
-      "high": 3.833,
-      "low": 2.045,
-      "spark": [
-        2.045,
-        2.851,
-        3.184,
-        2.677,
-        2.722,
-        2.167,
-        3.833
-      ]
-    },
-    {
-      "id": "lesser-ward-rune",
-      "apiId": "lesser-ward-rune",
-      "name": "Lesser Ward Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/35e18e19ac/AddedWardLesser.png",
-      "category": "runes",
-      "price": 5,
-      "changePct": 0,
-      "volume": 3,
-      "high": 6.583,
-      "low": 1.667,
-      "spark": [
-        3.25,
-        3.75,
-        6.583,
-        2.472,
-        1.667,
-        5,
-        5
+        13.419,
+        20.905,
+        24.919,
+        26.779,
+        18.143,
+        38.262,
+        24.368
       ]
     },
     {
@@ -1894,55 +1896,13 @@
       "spark": []
     },
     {
-      "id": "ancient-rune-of-splinters",
-      "apiId": "ancient-rune-of-splinters",
-      "name": "Ancient Rune of Splinters",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c42839c4a9/EndgameRune1.png",
-      "category": "runes",
-      "price": 3,
-      "changePct": 43.067,
-      "volume": 3,
-      "high": 4.03,
-      "low": 1.6,
-      "spark": [
-        3.462,
-        2.375,
-        1.6,
-        4.03,
-        3.625,
-        2.25,
-        3.219
-      ]
-    },
-    {
-      "id": "desert-rune",
-      "apiId": "desert-rune",
-      "name": "Desert Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/eeabf0e7a0/FireRune.png",
-      "category": "runes",
-      "price": 3,
-      "changePct": 3.634,
-      "volume": 3,
-      "high": 3,
-      "low": 2.11,
-      "spark": [
-        2.11,
-        2.904,
-        2.778,
-        3,
-        2.762,
-        2.889,
-        2.994
-      ]
-    },
-    {
       "id": "iron-rune",
       "apiId": "iron-rune",
       "name": "Iron Rune",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmUiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/cfeb426ee0/EnhanceRune.png",
       "category": "runes",
-      "price": 1.667,
-      "changePct": -53.421,
+      "price": 2.667,
+      "changePct": -49.061,
       "volume": 3,
       "high": 6.825,
       "low": 1.965,
@@ -1953,7 +1913,7 @@
         2.78,
         6.825,
         4.472,
-        2.083
+        2.278
       ]
     },
     {
@@ -2027,8 +1987,8 @@
       "name": "Essence of Abrasion",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e52cd05eeb/PhysicalEssence.png",
       "category": "essences",
-      "price": 18,
-      "changePct": 21.885,
+      "price": 24,
+      "changePct": 32.219,
       "volume": 3,
       "high": 20.85,
       "low": 5.283,
@@ -2039,28 +1999,7 @@
         7.633,
         5.283,
         9.367,
-        11.417
-      ]
-    },
-    {
-      "id": "perfect-essence-of-sorcery",
-      "apiId": "perfect-essence-of-sorcery",
-      "name": "Perfect Essence of Sorcery",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlUGVyZmVjdCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5aa3698010/CasterEssencePerfect.png",
-      "category": "essences",
-      "price": 18,
-      "changePct": -23.481,
-      "volume": 3,
-      "high": 26.504,
-      "low": 4.322,
-      "spark": [
-        4.322,
-        13.833,
-        6.765,
-        26.504,
-        20.312,
-        21.958,
-        16.802
+        12.385
       ]
     },
     {
@@ -2080,27 +2019,6 @@
         3,
         1,
         9.667
-      ]
-    },
-    {
-      "id": "greater-essence-of-insulation",
-      "apiId": "greater-essence-of-insulation",
-      "name": "Greater Essence of Insulation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
-      "category": "essences",
-      "price": 7,
-      "changePct": -13.464,
-      "volume": 3,
-      "high": 7.457,
-      "low": 2.711,
-      "spark": [
-        3.833,
-        4.745,
-        3.159,
-        2.711,
-        5.871,
-        7.457,
-        6.453
       ]
     },
     {
@@ -2125,87 +2043,24 @@
       ]
     },
     {
-      "id": "greater-essence-of-the-body",
-      "apiId": "greater-essence-of-the-body",
-      "name": "Greater Essence of the Body",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png",
+      "id": "perfect-essence-of-command",
+      "apiId": "perfect-essence-of-command",
+      "name": "Perfect Essence of Command",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
       "category": "essences",
-      "price": 5,
-      "changePct": 125.223,
+      "price": 6,
+      "changePct": 71.429,
       "volume": 3,
-      "high": 4.536,
-      "low": 0.849,
+      "high": 6.5,
+      "low": 1.333,
       "spark": [
-        1.542,
-        2.072,
-        2.062,
-        0.967,
-        0.849,
-        2.014,
-        4.536
-      ]
-    },
-    {
-      "id": "greater-essence-of-thawing",
-      "apiId": "greater-essence-of-thawing",
-      "name": "Greater Essence of Thawing",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZFJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/acdbacca0f/GreaterColdResistanceEssence.png",
-      "category": "essences",
-      "price": 5,
-      "changePct": -15.67,
-      "volume": 3,
-      "high": 5.705,
-      "low": 2.463,
-      "spark": [
-        3.519,
-        5.388,
-        2.463,
-        2.7,
-        3.693,
-        5.705,
-        4.811
-      ]
-    },
-    {
-      "id": "perfect-essence-of-the-mind",
-      "apiId": "perfect-essence-of-the-mind",
-      "name": "Perfect Essence of the Mind",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/84410174b2/ManaEssencePerfect.png",
-      "category": "essences",
-      "price": 3,
-      "changePct": -29.745,
-      "volume": 3,
-      "high": 9.061,
-      "low": 1.665,
-      "spark": [
-        9.061,
-        4.166,
-        2.786,
-        1.665,
-        3.091,
-        3.372,
-        2.369
-      ]
-    },
-    {
-      "id": "perfect-essence-of-insulation",
-      "apiId": "perfect-essence-of-insulation",
-      "name": "Perfect Essence of Insulation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/133d10b42e/FireResistanceEssencePerfect.png",
-      "category": "essences",
-      "price": 2,
-      "changePct": 0,
-      "volume": 3,
-      "high": 10.25,
-      "low": 2,
-      "spark": [
-        2.333,
-        7.267,
-        10.25,
-        2.5,
-        3,
-        2,
-        2
+        3.095,
+        2.667,
+        1.333,
+        5.375,
+        6.5,
+        3.5,
+        6
       ]
     },
     {
@@ -2214,8 +2069,8 @@
       "name": "Origin Core",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUHJlY3Vyc29yU2VlZEVnZ0NvbWJpbmVkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/789160e327/PrecursorSeedEggCombined.png",
       "category": "fragments",
-      "price": 1566.297,
-      "changePct": -3.826,
+      "price": 1527.348,
+      "changePct": -3.008,
       "volume": 2,
       "high": 1499.358,
       "low": 683.644,
@@ -2226,7 +2081,28 @@
         799.375,
         924.712,
         1499.358,
-        1441.997
+        1454.251
+      ]
+    },
+    {
+      "id": "breachstone",
+      "apiId": "breachstone",
+      "name": "Breachstone",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvQnJlYWNoL0JyZWFjaHN0b25lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d60587d724/Breachstone.png",
+      "category": "fragments",
+      "price": 140,
+      "changePct": 44.475,
+      "volume": 2,
+      "high": 119.374,
+      "low": 31.679,
+      "spark": [
+        32.429,
+        37.796,
+        31.679,
+        48.046,
+        49.694,
+        82.626,
+        119.374
       ]
     },
     {
@@ -2235,8 +2111,8 @@
       "name": "Greater Rune of Leadership",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/81a3fe75a5/LightningRuneSpecial1.png",
       "category": "runes",
-      "price": 1566.297,
-      "changePct": -13.787,
+      "price": 1756.45,
+      "changePct": -10.479,
       "volume": 2,
       "high": 1516.656,
       "low": 723.24,
@@ -2247,133 +2123,111 @@
         1250.902,
         1309.81,
         1516.656,
-        1307.56
+        1357.723
       ]
     },
     {
-      "id": "greater-charging-rune",
-      "apiId": "greater-charging-rune",
-      "name": "Greater Charging Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvbkdyZWF0ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/96b3b4550d/WardRegenerationGreater.png",
+      "id": "perfect-body-rune",
+      "apiId": "perfect-body-rune",
+      "name": "Perfect Body Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVMaWZlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/77d2019212/PerfectRuneLife.png",
       "category": "runes",
-      "price": 159.7,
-      "changePct": 613.563,
+      "price": 312.991,
+      "changePct": 120.646,
       "volume": 2,
-      "high": 52.925,
-      "low": 4.167,
+      "high": 328.073,
+      "low": 105.983,
       "spark": [
-        8.833,
-        10.833,
-        6.914,
-        5,
-        4.167,
-        7.417,
-        52.925
+        261.299,
+        301.303,
+        105.983,
+        328.073,
+        141.852,
+        312.991
       ]
     },
     {
-      "id": "greater-rune-of-tithing",
-      "apiId": "greater-rune-of-tithing",
-      "name": "Greater Rune of Tithing",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/369dd670ba/LightningRuneSpecial2.png",
+      "id": "serles-triumph",
+      "apiId": "serles-triumph",
+      "name": "Serle's Triumph",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/4a1b9c272c/GameWarpRune2.png",
       "category": "runes",
-      "price": 159.7,
-      "changePct": 11.821,
+      "price": 126.367,
+      "changePct": 72.78,
       "volume": 2,
-      "high": 546.623,
-      "low": 165.639,
+      "high": 128.407,
+      "low": 59.714,
       "spark": [
-        171.669,
-        368.674,
-        463.033,
-        546.623,
-        324.245,
-        165.639,
-        185.22
+        69.741,
+        63.377,
+        59.714,
+        89.483,
+        93.776,
+        74.318,
+        128.407
       ]
     },
     {
-      "id": "craiceanns-rune-of-recovery",
-      "apiId": "craiceanns-rune-of-recovery",
-      "name": "Craiceann's Rune of Recovery",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
+      "id": "kolrs-hunt",
+      "apiId": "kolrs-hunt",
+      "name": "Kolr's Hunt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lRGV4Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/27b68d6b1e/GameWarpRuneDex.png",
       "category": "runes",
-      "price": 45,
-      "changePct": 25.539,
+      "price": 72.5,
+      "changePct": 34.514,
       "volume": 2,
-      "high": 21.727,
-      "low": 11.569,
+      "high": 84.78,
+      "low": 30.161,
       "spark": [
-        12.475,
-        11.642,
-        11.569,
-        13.74,
-        12.116,
-        17.307,
-        21.727
+        64.459,
+        30.161,
+        51.003,
+        66.286,
+        58.236,
+        63.027,
+        84.78
       ]
     },
     {
-      "id": "the-greatwolfs-rune-of-willpower",
-      "apiId": "the-greatwolfs-rune-of-willpower",
-      "name": "The Greatwolf's Rune of Willpower",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6228f14146/NewRune21.png",
+      "id": "warding-rune-of-reinforcement",
+      "apiId": "warding-rune-of-reinforcement",
+      "name": "Warding Rune of Reinforcement",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9dad170d35/RunicWard1.png",
       "category": "runes",
-      "price": 27.5,
-      "changePct": 60.053,
+      "price": 29.5,
+      "changePct": 378.81,
       "volume": 2,
-      "high": 33.936,
-      "low": 12.824,
+      "high": 27.838,
+      "low": 3.667,
       "spark": [
-        21.386,
-        29.815,
-        25.275,
-        20.324,
-        12.824,
-        21.203,
-        33.936
+        3.667,
+        3.742,
+        14.574,
+        14.271,
+        4.231,
+        5.814,
+        27.838
       ]
     },
     {
-      "id": "fenumus-rune-of-spinning",
-      "apiId": "fenumus-rune-of-spinning",
-      "name": "Fenumus' Rune of Spinning",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
-      "category": "runes",
-      "price": 18,
-      "changePct": 5.639,
-      "volume": 2,
-      "high": 24.804,
-      "low": 8.91,
-      "spark": [
-        10.654,
-        11.181,
-        9.004,
-        9.233,
-        8.91,
-        23.48,
-        24.804
-      ]
-    },
-    {
-      "id": "rune-of-vitality",
-      "apiId": "rune-of-vitality",
-      "name": "Rune of Vitality",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/6c7659e613/EarlyMythicRune1.png",
+      "id": "katlas-gloom",
+      "apiId": "katlas-gloom",
+      "name": "Katla's Gloom",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c59f912034/GameWarpRuneChaos.png",
       "category": "runes",
       "price": 14,
-      "changePct": -44.15,
+      "changePct": 48.025,
       "volume": 2,
-      "high": 17.718,
-      "low": 9.375,
+      "high": 43.29,
+      "low": 10.987,
       "spark": [
-        17.718,
-        16.815,
-        13.333,
-        9.429,
-        13.781,
-        16.786,
-        9.375
+        34.145,
+        30.989,
+        15,
+        10.987,
+        32.461,
+        29.245,
+        43.29
       ]
     },
     {
@@ -2398,45 +2252,87 @@
       ]
     },
     {
-      "id": "rune-of-the-prism",
-      "apiId": "rune-of-the-prism",
-      "name": "Rune of the Prism",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f2f016e6cd/EarlyMythicRune8.png",
+      "id": "thane-grannells-rune-of-mastery",
+      "apiId": "thane-grannells-rune-of-mastery",
+      "name": "Thane Grannell's Rune of Mastery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8fddac42a1/NewRune12.png",
       "category": "runes",
-      "price": 10,
-      "changePct": 10.782,
+      "price": 13,
+      "changePct": -20.73,
       "volume": 2,
-      "high": 12.299,
-      "low": 5.643,
+      "high": 17.311,
+      "low": 8.918,
       "spark": [
-        8.551,
-        8.173,
-        5.643,
-        11.604,
-        9.996,
-        11.102,
-        12.299
+        11.877,
+        8.918,
+        12.179,
+        14.111,
+        17.311,
+        15.625,
+        12.386
       ]
     },
     {
-      "id": "thane-girts-rune-of-wildness",
-      "apiId": "thane-girts-rune-of-wildness",
-      "name": "Thane Girt's Rune of Wildness",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
+      "id": "breath-of-aldur",
+      "apiId": "breath-of-aldur",
+      "name": "Breath of Aldur",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVDb2xkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/508c419670/ElementalConversionRuneCold.png",
       "category": "runes",
-      "price": 9,
-      "changePct": 35.008,
+      "price": 12,
+      "changePct": -70.649,
       "volume": 2,
-      "high": 11.695,
-      "low": 4.562,
+      "high": 39.521,
+      "low": 5.071,
       "spark": [
-        11.695,
-        4.562,
-        5.188,
-        6.167,
-        5.444,
-        5.333,
-        7.2
+        15.027,
+        9.31,
+        8.667,
+        5.071,
+        13.333,
+        39.521,
+        11.6
+      ]
+    },
+    {
+      "id": "greater-charging-rune",
+      "apiId": "greater-charging-rune",
+      "name": "Greater Charging Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvV2FyZFJlZ2VuZXJhdGlvbkdyZWF0ZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/96b3b4550d/WardRegenerationGreater.png",
+      "category": "runes",
+      "price": 10,
+      "changePct": 497.816,
+      "volume": 2,
+      "high": 44.34,
+      "low": 4.167,
+      "spark": [
+        8.833,
+        10.833,
+        6.914,
+        5,
+        4.167,
+        7.417,
+        44.34
+      ]
+    },
+    {
+      "id": "fenumus-rune-of-spinning",
+      "apiId": "fenumus-rune-of-spinning",
+      "name": "Fenumus' Rune of Spinning",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d0e9100877/NewRune13.png",
+      "category": "runes",
+      "price": 9.5,
+      "changePct": -2.819,
+      "volume": 2,
+      "high": 23.48,
+      "low": 8.91,
+      "spark": [
+        10.654,
+        11.181,
+        9.004,
+        9.233,
+        8.91,
+        23.48,
+        22.818
       ]
     },
     {
@@ -2461,45 +2357,87 @@
       ]
     },
     {
-      "id": "lesser-iron-rune",
-      "apiId": "lesser-iron-rune",
-      "name": "Lesser Iron Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRW5oYW5jZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/719e7a07b9/EnhanceRuneTier1.png",
+      "id": "rune-of-foundations",
+      "apiId": "rune-of-foundations",
+      "name": "Rune of Foundations",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3798b31b1e/EarlyMythicRune7.png",
       "category": "runes",
       "price": 8,
-      "changePct": 7.447,
+      "changePct": -11.542,
       "volume": 2,
-      "high": 4.819,
-      "low": 0.989,
+      "high": 17.6,
+      "low": 5.804,
       "spark": [
-        1.136,
-        1.662,
-        0.989,
-        1.219,
-        3.282,
-        4.485,
-        4.819
+        12.505,
+        17.6,
+        8.125,
+        5.804,
+        9.002,
+        9.539,
+        8.438
       ]
     },
     {
-      "id": "greater-adept-rune",
-      "apiId": "greater-adept-rune",
-      "name": "Greater Adept Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
+      "id": "lesser-ward-rune",
+      "apiId": "lesser-ward-rune",
+      "name": "Lesser Ward Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvQWRkZWRXYXJkTGVzc2VyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/35e18e19ac/AddedWardLesser.png",
       "category": "runes",
-      "price": 5,
-      "changePct": -11.542,
+      "price": 4.5,
+      "changePct": -3.34,
       "volume": 2,
-      "high": 4.748,
-      "low": 0.615,
+      "high": 6.583,
+      "low": 1.667,
       "spark": [
-        0.615,
-        1.955,
-        1.556,
-        2.143,
-        4.681,
-        4.748,
-        4.2
+        3.25,
+        3.75,
+        6.583,
+        2.472,
+        1.667,
+        5,
+        4.833
+      ]
+    },
+    {
+      "id": "rune-of-the-blossom",
+      "apiId": "rune-of-the-blossom",
+      "name": "Rune of the Blossom",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b36a935747/EarlyMythicRune9.png",
+      "category": "runes",
+      "price": 3.5,
+      "changePct": 231.122,
+      "volume": 2,
+      "high": 68.125,
+      "low": 12.011,
+      "spark": [
+        15.884,
+        12.911,
+        12.011,
+        21.884,
+        14.295,
+        20.574,
+        68.125
+      ]
+    },
+    {
+      "id": "storm-rune",
+      "apiId": "storm-rune",
+      "name": "Storm Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/98319b3998/LightningRune.png",
+      "category": "runes",
+      "price": 3,
+      "changePct": 64.098,
+      "volume": 2,
+      "high": 3.556,
+      "low": 2.045,
+      "spark": [
+        2.045,
+        2.851,
+        3.184,
+        2.677,
+        2.722,
+        2.167,
+        3.556
       ]
     },
     {
@@ -2584,24 +2522,24 @@
       ]
     },
     {
-      "id": "greater-vision-rune",
-      "apiId": "greater-vision-rune",
-      "name": "Greater Vision Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQWNjdXJhY3lSdW5lVGllcjIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/88ab9b96b4/AccuracyRuneTier2.png",
+      "id": "greater-inspiration-rune",
+      "apiId": "greater-inspiration-rune",
+      "name": "Greater Inspiration Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTWFuYVJlY292ZXJ5UnVuZVRpZXIyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9c6cc572d8/ManaRecoveryRuneTier2.png",
       "category": "runes",
       "price": 0.5,
-      "changePct": 25.225,
+      "changePct": 199.401,
       "volume": 2,
-      "high": 0.5,
-      "low": 0.333,
+      "high": 1,
+      "low": 0.167,
       "spark": [
-        0.483,
-        0.462,
+        0.575,
+        0.933,
+        1,
         0.5,
-        0.5,
-        0.4,
-        0.333,
-        0.417
+        0.167,
+        0.167,
+        0.5
       ]
     },
     {
@@ -2636,66 +2574,66 @@
       ]
     },
     {
-      "id": "perfect-essence-of-seeking",
-      "apiId": "perfect-essence-of-seeking",
-      "name": "Perfect Essence of Seeking",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Dcml0aWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/3d5125e9d6/CriticalEssencePerfect.png",
-      "category": "essences",
-      "price": 30,
-      "changePct": 20.86,
+      "id": "lesser-desert-rune",
+      "apiId": "lesser-desert-rune",
+      "name": "Lesser Desert Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRmlyZVJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/fdc8d95dd7/FireRuneTier1.png",
+      "category": "runes",
+      "price": 0.5,
+      "changePct": 156.92,
       "volume": 2,
-      "high": 59.822,
-      "low": 16.693,
+      "high": 15.5,
+      "low": 0.652,
       "spark": [
-        16.693,
-        17.446,
-        16.833,
-        17.309,
-        52.88,
-        49.497,
-        59.822
+        1.69,
+        2.481,
+        0.652,
+        0.893,
+        1.143,
+        6.033,
+        15.5
       ]
     },
     {
-      "id": "essence-of-ruin",
-      "apiId": "essence-of-ruin",
-      "name": "Essence of Ruin",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png",
+      "id": "essence-of-horror",
+      "apiId": "essence-of-horror",
+      "name": "Essence of Horror",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSG9ycm9yIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6b3b256279/CorruptedEssenceHorror.png",
       "category": "essences",
-      "price": 28,
-      "changePct": 14.286,
+      "price": 534.572,
+      "changePct": 2.135,
       "volume": 2,
-      "high": 28,
-      "low": 5,
+      "high": 331.095,
+      "low": 91.678,
       "spark": [
-        10.5,
-        5,
-        9.1,
-        19.583,
-        7.75,
-        24.5,
-        28
+        166.31,
+        137.34,
+        91.678,
+        281.613,
+        292.98,
+        324.174,
+        331.095
       ]
     },
     {
-      "id": "perfect-essence-of-haste",
-      "apiId": "perfect-essence-of-haste",
-      "name": "Perfect Essence of Haste",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
+      "id": "essence-of-sorcery",
+      "apiId": "essence-of-sorcery",
+      "name": "Essence of Sorcery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
       "category": "essences",
-      "price": 24,
-      "changePct": 77.395,
+      "price": 15,
+      "changePct": -62.371,
       "volume": 2,
-      "high": 46.63,
-      "low": 7.311,
+      "high": 20.5,
+      "low": 7.714,
       "spark": [
-        13.023,
-        18.311,
-        7.311,
-        7.646,
-        16.826,
-        26.286,
-        46.63
+        10.038,
+        11.936,
+        8.5,
+        12.244,
+        12.167,
+        20.5,
+        7.714
       ]
     },
     {
@@ -2704,8 +2642,8 @@
       "name": "Greater Essence of Seeking",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ3JpdGljYWxFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/db4eadee00/GreaterCriticalEssence.png",
       "category": "essences",
-      "price": 10,
-      "changePct": -25.595,
+      "price": 9.5,
+      "changePct": -24.897,
       "volume": 2,
       "high": 11.885,
       "low": 2.018,
@@ -2716,49 +2654,7 @@
         2.939,
         10.94,
         11.885,
-        8.843
-      ]
-    },
-    {
-      "id": "perfect-essence-of-enhancement",
-      "apiId": "perfect-essence-of-enhancement",
-      "name": "Perfect Essence of Enhancement",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9EZWZlbmNlc0Vzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/dd5b00f215/DefencesEssencePerfect.png",
-      "category": "essences",
-      "price": 8,
-      "changePct": 26.505,
-      "volume": 2,
-      "high": 9.875,
-      "low": 3.776,
-      "spark": [
-        3.776,
-        9.536,
-        4.01,
-        3.98,
-        7.954,
-        7.806,
-        9.875
-      ]
-    },
-    {
-      "id": "essence-of-insulation",
-      "apiId": "essence-of-insulation",
-      "name": "Essence of Insulation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/228d48a458/FireResistanceEssence.png",
-      "category": "essences",
-      "price": 8,
-      "changePct": 162.467,
-      "volume": 2,
-      "high": 8.308,
-      "low": 3.048,
-      "spark": [
-        6.016,
-        6.25,
-        7.25,
-        8.308,
-        6.244,
-        3.048,
-        8
+        8.926
       ]
     },
     {
@@ -2780,48 +2676,6 @@
         6.786,
         4.6,
         6.333
-      ]
-    },
-    {
-      "id": "perfect-essence-of-command",
-      "apiId": "perfect-essence-of-command",
-      "name": "Perfect Essence of Command",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9BbGx5RXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0e06dceedc/AllyEssencePerfect.png",
-      "category": "essences",
-      "price": 6,
-      "changePct": 71.429,
-      "volume": 2,
-      "high": 6.5,
-      "low": 1.333,
-      "spark": [
-        3.095,
-        2.667,
-        1.333,
-        5.375,
-        6.5,
-        3.5,
-        6
-      ]
-    },
-    {
-      "id": "greater-essence-of-grounding",
-      "apiId": "greater-essence-of-grounding",
-      "name": "Greater Essence of Grounding",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlnaHRuaW5nUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/fd9d91c76a/GreaterLightningResistanceEssence.png",
-      "category": "essences",
-      "price": 6,
-      "changePct": -18.897,
-      "volume": 2,
-      "high": 5.964,
-      "low": 2.403,
-      "spark": [
-        3.276,
-        5.249,
-        2.403,
-        2.709,
-        4.881,
-        5.964,
-        4.837
       ]
     },
     {
@@ -2865,24 +2719,24 @@
       ]
     },
     {
-      "id": "lesser-essence-of-insulation",
-      "apiId": "lesser-essence-of-insulation",
-      "name": "Lesser Essence of Insulation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/82eb38b617/FireResistanceEssenceLesser.png",
+      "id": "greater-essence-of-insulation",
+      "apiId": "greater-essence-of-insulation",
+      "name": "Greater Essence of Insulation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZVJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/e5b663f414/GreaterFireResistanceEssence.png",
       "category": "essences",
-      "price": 3,
-      "changePct": 100,
+      "price": 4.5,
+      "changePct": -17.554,
       "volume": 2,
-      "high": 5.148,
-      "low": 1,
+      "high": 7.457,
+      "low": 2.711,
       "spark": [
-        1,
-        2,
-        1,
-        1,
-        5.148,
-        1.5,
-        3
+        3.833,
+        4.745,
+        3.159,
+        2.711,
+        5.871,
+        7.457,
+        6.148
       ]
     },
     {
@@ -3002,6 +2856,27 @@
       ]
     },
     {
+      "id": "breachlord-sac",
+      "apiId": "breachlord-sac",
+      "name": "Breachlord Sac",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVlc3RJdGVtcy9CcmVhY2hsb3JkU2FjIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/07670f51fe/BreachlordSac.png",
+      "category": "fragments",
+      "price": 1527.348,
+      "changePct": 16.996,
+      "volume": 1,
+      "high": 1556.272,
+      "low": 413.963,
+      "spark": [
+        413.963,
+        448.411,
+        638.552,
+        713.726,
+        769.182,
+        1330.187,
+        1556.272
+      ]
+    },
+    {
       "id": "victorious-fate",
       "apiId": "victorious-fate",
       "name": "Victorious Fate",
@@ -3070,8 +2945,8 @@
       "name": "Aldur's Legacy",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lVW5pcXVlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/0eca412563/GameWarpRuneUnique.png",
       "category": "runes",
-      "price": 21928.152,
-      "changePct": 8.116,
+      "price": 19855.525,
+      "changePct": 13.193,
       "volume": 1,
       "high": 17989.543,
       "low": 8771.361,
@@ -3082,7 +2957,7 @@
         16042.53,
         11292.594,
         13827.517,
-        14949.756
+        15651.811
       ]
     },
     {
@@ -3141,29 +3016,13 @@
       "spark": []
     },
     {
-      "id": "perfect-inspiration-rune",
-      "apiId": "perfect-inspiration-rune",
-      "name": "Perfect Inspiration Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVNYW5hUmVjb3ZlcnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0941528f57/PerfectRuneManaRecovery.png",
-      "category": "runes",
-      "price": 194.543,
-      "changePct": -31.331,
-      "volume": 1,
-      "high": 214.464,
-      "low": 147.271,
-      "spark": [
-        214.464,
-        147.271
-      ]
-    },
-    {
       "id": "perfect-iron-rune",
       "apiId": "perfect-iron-rune",
       "name": "Perfect Iron Rune",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVFbmhhbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4e46d225f8/PerfectRuneEnhance.png",
       "category": "runes",
       "price": 168,
-      "changePct": -6.027,
+      "changePct": -5.539,
       "volume": 1,
       "high": 168.28,
       "low": 85.687,
@@ -3174,7 +3033,7 @@
         111.127,
         145.796,
         168.28,
-        158.137
+        158.959
       ]
     },
     {
@@ -3189,6 +3048,44 @@
       "high": 163.382,
       "low": 163.382,
       "spark": []
+    },
+    {
+      "id": "perfect-inspiration-rune",
+      "apiId": "perfect-inspiration-rune",
+      "name": "Perfect Inspiration Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvUGVyZmVjdFJ1bmVNYW5hUmVjb3ZlcnkiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/0941528f57/PerfectRuneManaRecovery.png",
+      "category": "runes",
+      "price": 156.496,
+      "changePct": 6.264,
+      "volume": 1,
+      "high": 214.464,
+      "low": 147.271,
+      "spark": [
+        214.464,
+        147.271,
+        156.496
+      ]
+    },
+    {
+      "id": "greater-rune-of-tithing",
+      "apiId": "greater-rune-of-tithing",
+      "name": "Greater Rune of Tithing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTGlnaHRuaW5nUnVuZVNwZWNpYWwyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/369dd670ba/LightningRuneSpecial2.png",
+      "category": "runes",
+      "price": 156.496,
+      "changePct": 9.344,
+      "volume": 1,
+      "high": 546.623,
+      "low": 165.639,
+      "spark": [
+        171.669,
+        368.674,
+        463.033,
+        546.623,
+        324.245,
+        165.639,
+        181.117
+      ]
     },
     {
       "id": "perfect-vision-rune",
@@ -3262,24 +3159,45 @@
       ]
     },
     {
-      "id": "countess-seskes-rune-of-archery",
-      "apiId": "countess-seskes-rune-of-archery",
-      "name": "Countess Seske's Rune of Archery",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8e738ce3cb/NewRune14.png",
+      "id": "cadigans-epiphany",
+      "apiId": "cadigans-epiphany",
+      "name": "Cadigan's Epiphany",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/884c6d6f83/GameWarpRune3.png",
       "category": "runes",
-      "price": 52,
-      "changePct": 36.566,
+      "price": 70,
+      "changePct": -33.772,
       "volume": 1,
-      "high": 40.201,
-      "low": 21.061,
+      "high": 350.26,
+      "low": 119.804,
       "spark": [
-        28.061,
-        26.537,
-        21.061,
-        29.215,
-        24.793,
-        29.437,
-        40.201
+        200.688,
+        188.454,
+        206.204,
+        350.26,
+        189.519,
+        180.895,
+        119.804
+      ]
+    },
+    {
+      "id": "craiceanns-rune-of-recovery",
+      "apiId": "craiceanns-rune-of-recovery",
+      "name": "Craiceann's Rune of Recovery",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/96c722e7d3/NewRune10.png",
+      "category": "runes",
+      "price": 57,
+      "changePct": 62.004,
+      "volume": 1,
+      "high": 28.038,
+      "low": 11.569,
+      "spark": [
+        12.475,
+        11.642,
+        11.569,
+        13.74,
+        12.116,
+        17.307,
+        28.038
       ]
     },
     {
@@ -3343,6 +3261,27 @@
       ]
     },
     {
+      "id": "saqawals-rune-of-memory",
+      "apiId": "saqawals-rune-of-memory",
+      "name": "Saqawal's Rune of Memory",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6a71f0e666/NewRune7.png",
+      "category": "runes",
+      "price": 39,
+      "changePct": -9.869,
+      "volume": 1,
+      "high": 31.228,
+      "low": 11.49,
+      "spark": [
+        16.193,
+        11.49,
+        16.542,
+        12.571,
+        13.167,
+        31.228,
+        28.146
+      ]
+    },
+    {
       "id": "voranas-carnage",
       "apiId": "voranas-carnage",
       "name": "Vorana's Carnage",
@@ -3403,57 +3342,15 @@
       ]
     },
     {
-      "id": "katlas-gloom",
-      "apiId": "katlas-gloom",
-      "name": "Katla's Gloom",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ2hhb3MiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/c59f912034/GameWarpRuneChaos.png",
-      "category": "runes",
-      "price": 34,
-      "changePct": 62.332,
-      "volume": 1,
-      "high": 47.474,
-      "low": 10.987,
-      "spark": [
-        34.145,
-        30.989,
-        15,
-        10.987,
-        32.461,
-        29.245,
-        47.474
-      ]
-    },
-    {
-      "id": "saqawals-rune-of-memory",
-      "apiId": "saqawals-rune-of-memory",
-      "name": "Saqawal's Rune of Memory",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/6a71f0e666/NewRune7.png",
-      "category": "runes",
-      "price": 33,
-      "changePct": -12.178,
-      "volume": 1,
-      "high": 31.228,
-      "low": 11.49,
-      "spark": [
-        16.193,
-        11.49,
-        16.542,
-        12.571,
-        13.167,
-        31.228,
-        27.425
-      ]
-    },
-    {
       "id": "rune-of-acrobatics",
       "apiId": "rune-of-acrobatics",
       "name": "Rune of Acrobatics",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/88b5625697/EarlyMythicRune3.png",
       "category": "runes",
-      "price": 24,
-      "changePct": 62.925,
+      "price": 25,
+      "changePct": 67.174,
       "volume": 1,
-      "high": 20.25,
+      "high": 20.778,
       "low": 5.107,
       "spark": [
         8.205,
@@ -3462,28 +3359,7 @@
         5.107,
         9.688,
         12.429,
-        20.25
-      ]
-    },
-    {
-      "id": "medveds-tending",
-      "apiId": "medveds-tending",
-      "name": "Medved's Tending",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1eeef7fd0e/GameWarpRuneCold.png",
-      "category": "runes",
-      "price": 20,
-      "changePct": -51.58,
-      "volume": 1,
-      "high": 65.316,
-      "low": 17.438,
-      "spark": [
-        17.625,
-        21.591,
-        26.816,
-        65.316,
-        44.659,
-        36.014,
-        17.438
+        20.778
       ]
     },
     {
@@ -3502,6 +3378,27 @@
         19,
         20,
         20
+      ]
+    },
+    {
+      "id": "medveds-tending",
+      "apiId": "medveds-tending",
+      "name": "Medved's Tending",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvR2FtZVdhcnBSdW5lQ29sZCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/1eeef7fd0e/GameWarpRuneCold.png",
+      "category": "runes",
+      "price": 19,
+      "changePct": -12.534,
+      "volume": 1,
+      "high": 65.316,
+      "low": 17.625,
+      "spark": [
+        17.625,
+        21.591,
+        26.816,
+        65.316,
+        44.659,
+        36.014,
+        31.5
       ]
     },
     {
@@ -3531,8 +3428,8 @@
       "name": "Warding Rune of Armature",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvUnVuaWNXYXJkMTgiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/f48bd622f8/RunicWard18.png",
       "category": "runes",
-      "price": 17,
-      "changePct": -54.221,
+      "price": 18,
+      "changePct": -52.572,
       "volume": 1,
       "high": 32.329,
       "low": 4.75,
@@ -3543,7 +3440,7 @@
         10.5,
         15,
         32.329,
-        14.8
+        15.333
       ]
     },
     {
@@ -3608,24 +3505,45 @@
       ]
     },
     {
-      "id": "thane-grannells-rune-of-mastery",
-      "apiId": "thane-grannells-rune-of-mastery",
-      "name": "Thane Grannell's Rune of Mastery",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTEyIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/8fddac42a1/NewRune12.png",
+      "id": "thane-girts-rune-of-wildness",
+      "apiId": "thane-girts-rune-of-wildness",
+      "name": "Thane Girt's Rune of Wildness",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE1Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/d76b01cd40/NewRune15.png",
       "category": "runes",
       "price": 14,
-      "changePct": -22.31,
+      "changePct": 56.254,
       "volume": 1,
-      "high": 17.311,
-      "low": 8.918,
+      "high": 11.695,
+      "low": 4.562,
       "spark": [
-        11.877,
-        8.918,
-        12.179,
-        14.111,
-        17.311,
-        15.625,
-        12.139
+        11.695,
+        4.562,
+        5.188,
+        6.167,
+        5.444,
+        5.333,
+        8.333
+      ]
+    },
+    {
+      "id": "rune-of-accumulation",
+      "apiId": "rune-of-accumulation",
+      "name": "Rune of Accumulation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/b26a551271/EarlyMythicRune6.png",
+      "category": "runes",
+      "price": 13,
+      "changePct": 68.5,
+      "volume": 1,
+      "high": 8.425,
+      "low": 5,
+      "spark": [
+        5.278,
+        6.47,
+        5.857,
+        6,
+        6.938,
+        5,
+        8.425
       ]
     },
     {
@@ -3650,55 +3568,13 @@
       ]
     },
     {
-      "id": "rune-of-foundations",
-      "apiId": "rune-of-foundations",
-      "name": "Rune of Foundations",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNyIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/3798b31b1e/EarlyMythicRune7.png",
-      "category": "runes",
-      "price": 12,
-      "changePct": -12.853,
-      "volume": 1,
-      "high": 17.6,
-      "low": 5.804,
-      "spark": [
-        12.505,
-        17.6,
-        8.125,
-        5.804,
-        9.002,
-        9.539,
-        8.313
-      ]
-    },
-    {
-      "id": "breath-of-aldur",
-      "apiId": "breath-of-aldur",
-      "name": "Breath of Aldur",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVDb2xkIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/508c419670/ElementalConversionRuneCold.png",
-      "category": "runes",
-      "price": 11,
-      "changePct": -70.902,
-      "volume": 1,
-      "high": 39.521,
-      "low": 5.071,
-      "spark": [
-        15.027,
-        9.31,
-        8.667,
-        5.071,
-        13.333,
-        39.521,
-        11.5
-      ]
-    },
-    {
       "id": "rune-of-renown",
       "apiId": "rune-of-renown",
       "name": "Rune of Renown",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lNSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/9af5cf6ac2/EarlyMythicRune5.png",
       "category": "runes",
       "price": 10,
-      "changePct": 12.633,
+      "changePct": 15.193,
       "volume": 1,
       "high": 30.136,
       "low": 7.462,
@@ -3709,7 +3585,7 @@
         7.462,
         9.572,
         7.892,
-        8.889
+        9.091
       ]
     },
     {
@@ -3734,6 +3610,27 @@
       ]
     },
     {
+      "id": "ire-of-aldur",
+      "apiId": "ire-of-aldur",
+      "name": "Ire of Aldur",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVMaWdodG5pbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/73938a519b/ElementalConversionRuneLightning.png",
+      "category": "runes",
+      "price": 10,
+      "changePct": -12.992,
+      "volume": 1,
+      "high": 32.867,
+      "low": 6.125,
+      "spark": [
+        6.125,
+        8.156,
+        8.056,
+        32.867,
+        7.7,
+        8.875,
+        7.722
+      ]
+    },
+    {
       "id": "adept-rune",
       "apiId": "adept-rune",
       "name": "Adept Rune",
@@ -3752,6 +3649,27 @@
         2,
         2,
         7.333
+      ]
+    },
+    {
+      "id": "the-greatwolfs-rune-of-claws",
+      "apiId": "the-greatwolfs-rune-of-claws",
+      "name": "The Greatwolf's Rune of Claws",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTIwIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/ae83a7c954/NewRune20.png",
+      "category": "runes",
+      "price": 10,
+      "changePct": 24.717,
+      "volume": 1,
+      "high": 35.25,
+      "low": 10.688,
+      "spark": [
+        21.31,
+        10.688,
+        27.305,
+        14.925,
+        19.836,
+        28.264,
+        35.25
       ]
     },
     {
@@ -3812,27 +3730,6 @@
       ]
     },
     {
-      "id": "courtesan-mannans-rune-of-cruelty",
-      "apiId": "courtesan-mannans-rune-of-cruelty",
-      "name": "Courtesan Mannan's Rune of Cruelty",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTExIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/da1b427b23/NewRune11.png",
-      "category": "runes",
-      "price": 9,
-      "changePct": -0.758,
-      "volume": 1,
-      "high": 12.923,
-      "low": 3.111,
-      "spark": [
-        8.311,
-        12.923,
-        9.357,
-        3.111,
-        3.929,
-        7.389,
-        7.333
-      ]
-    },
-    {
       "id": "warding-rune-of-glancing",
       "apiId": "warding-rune-of-glancing",
       "name": "Warding Rune of Glancing",
@@ -3871,24 +3768,24 @@
       ]
     },
     {
-      "id": "thane-lelds-rune-of-spring",
-      "apiId": "thane-lelds-rune-of-spring",
-      "name": "Thane Leld's Rune of Spring",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
+      "id": "courtesan-mannans-rune-of-cruelty",
+      "apiId": "courtesan-mannans-rune-of-cruelty",
+      "name": "Courtesan Mannan's Rune of Cruelty",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTExIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/da1b427b23/NewRune11.png",
       "category": "runes",
       "price": 8,
-      "changePct": 9.292,
+      "changePct": 0.149,
       "volume": 1,
-      "high": 11.409,
-      "low": 4.932,
+      "high": 12.923,
+      "low": 3.111,
       "spark": [
-        4.932,
-        5.021,
-        7.786,
-        5.955,
-        11.409,
-        5.833,
-        6.375
+        8.311,
+        12.923,
+        9.357,
+        3.111,
+        3.929,
+        7.389,
+        7.4
       ]
     },
     {
@@ -3913,34 +3810,13 @@
       ]
     },
     {
-      "id": "fenumus-rune-of-draining",
-      "apiId": "fenumus-rune-of-draining",
-      "name": "Fenumus' Rune of Draining",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
-      "category": "runes",
-      "price": 7,
-      "changePct": 136.2,
-      "volume": 1,
-      "high": 17.715,
-      "low": 2.875,
-      "spark": [
-        10.345,
-        2.875,
-        4.75,
-        8.167,
-        8.5,
-        7.5,
-        17.715
-      ]
-    },
-    {
       "id": "ancient-rune-of-the-titan",
       "apiId": "ancient-rune-of-the-titan",
       "name": "Ancient Rune of the Titan",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/2f9ef606d4/EndgameRune3.png",
       "category": "runes",
-      "price": 6,
-      "changePct": -20,
+      "price": 7,
+      "changePct": -13.333,
       "volume": 1,
       "high": 15.333,
       "low": 5.5,
@@ -3950,7 +3826,28 @@
         15.333,
         10.5,
         7.5,
-        6
+        6.5
+      ]
+    },
+    {
+      "id": "rune-of-the-hunt",
+      "apiId": "rune-of-the-hunt",
+      "name": "Rune of the Hunt",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMiIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/5247f756b7/EarlyMythicRune2.png",
+      "category": "runes",
+      "price": 6,
+      "changePct": 40.482,
+      "volume": 1,
+      "high": 8.656,
+      "low": 3.819,
+      "spark": [
+        3.838,
+        4.275,
+        6.333,
+        5.167,
+        8.656,
+        3.819,
+        5.365
       ]
     },
     {
@@ -3975,23 +3872,24 @@
       ]
     },
     {
-      "id": "farruls-rune-of-grace",
-      "apiId": "farruls-rune-of-grace",
-      "name": "Farrul's Rune of Grace",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1ca9b19776/NewRune4.png",
+      "id": "fenumus-rune-of-draining",
+      "apiId": "fenumus-rune-of-draining",
+      "name": "Fenumus' Rune of Draining",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE2Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/4753a65a2a/NewRune16.png",
       "category": "runes",
       "price": 6,
-      "changePct": 15.948,
+      "changePct": 97.147,
       "volume": 1,
-      "high": 6.667,
-      "low": 2.25,
+      "high": 14.786,
+      "low": 2.875,
       "spark": [
-        2.625,
-        2.25,
-        5.4,
-        3.5,
-        5.75,
-        6.667
+        10.345,
+        2.875,
+        4.75,
+        8.167,
+        8.5,
+        7.5,
+        14.786
       ]
     },
     {
@@ -4014,42 +3912,107 @@
       ]
     },
     {
-      "id": "lesser-robust-rune",
-      "apiId": "lesser-robust-rune",
-      "name": "Lesser Robust Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/a90800a313/StrengthRuneTier1.png",
+      "id": "ancient-rune-of-the-horde",
+      "apiId": "ancient-rune-of-the-horde",
+      "name": "Ancient Rune of the Horde",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/72c7d9d707/EndgameRune10.png",
       "category": "runes",
       "price": 5,
-      "changePct": -62.264,
+      "changePct": -92.233,
       "volume": 1,
-      "high": 13.25,
-      "low": 0.375,
+      "high": 35.404,
+      "low": 2.75,
       "spark": [
-        4.667,
-        2,
-        0.375,
-        1.5,
-        3.648,
-        13.25,
-        5
+        6.667,
+        5.455,
+        9.667,
+        3.286,
+        3.071,
+        35.404,
+        2.75
       ]
     },
     {
-      "id": "rune-of-confrontation",
-      "apiId": "rune-of-confrontation",
-      "name": "Rune of Confrontation",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/159530efbe/EarlyMythicRune13.png",
+      "id": "greater-adept-rune",
+      "apiId": "greater-adept-rune",
+      "name": "Greater Adept Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvRGV4UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/cf55763192/DexRuneTier3.png",
+      "category": "runes",
+      "price": 5,
+      "changePct": -8.741,
+      "volume": 1,
+      "high": 4.748,
+      "low": 0.615,
+      "spark": [
+        0.615,
+        1.955,
+        1.556,
+        2.143,
+        4.681,
+        4.748,
+        4.333
+      ]
+    },
+    {
+      "id": "farruls-rune-of-grace",
+      "apiId": "farruls-rune-of-grace",
+      "name": "Farrul's Rune of Grace",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTQiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/1ca9b19776/NewRune4.png",
+      "category": "runes",
+      "price": 5,
+      "changePct": 8.696,
+      "volume": 1,
+      "high": 6.25,
+      "low": 2.25,
+      "spark": [
+        2.625,
+        2.25,
+        5.4,
+        3.5,
+        5.75,
+        6.25
+      ]
+    },
+    {
+      "id": "ancient-rune-of-splinters",
+      "apiId": "ancient-rune-of-splinters",
+      "name": "Ancient Rune of Splinters",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/c42839c4a9/EndgameRune1.png",
       "category": "runes",
       "price": 4,
-      "changePct": 433.3,
+      "changePct": 46.933,
       "volume": 1,
-      "high": 5.333,
-      "low": 1,
+      "high": 4.03,
+      "low": 1.6,
       "spark": [
-        1,
-        1,
-        1,
-        5.333
+        3.462,
+        2.375,
+        1.6,
+        4.03,
+        3.625,
+        2.25,
+        3.306
+      ]
+    },
+    {
+      "id": "thane-lelds-rune-of-spring",
+      "apiId": "thane-lelds-rune-of-spring",
+      "name": "Thane Leld's Rune of Spring",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvTmV3UnVuZTE5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/b2966e8da7/NewRune19.png",
+      "category": "runes",
+      "price": 4,
+      "changePct": 1.149,
+      "volume": 1,
+      "high": 11.409,
+      "low": 4.932,
+      "spark": [
+        4.932,
+        5.021,
+        7.786,
+        5.955,
+        11.409,
+        5.833,
+        5.9
       ]
     },
     {
@@ -4095,27 +4058,6 @@
       ]
     },
     {
-      "id": "ancient-rune-of-the-horde",
-      "apiId": "ancient-rune-of-the-horde",
-      "name": "Ancient Rune of the Horde",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmUxMCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/72c7d9d707/EndgameRune10.png",
-      "category": "runes",
-      "price": 3,
-      "changePct": -93.504,
-      "volume": 1,
-      "high": 35.404,
-      "low": 2.3,
-      "spark": [
-        6.667,
-        5.455,
-        9.667,
-        3.286,
-        3.071,
-        35.404,
-        2.3
-      ]
-    },
-    {
       "id": "warding-rune-of-nourishment",
       "apiId": "warding-rune-of-nourishment",
       "name": "Warding Rune of Nourishment",
@@ -4137,6 +4079,25 @@
       ]
     },
     {
+      "id": "robust-rune",
+      "apiId": "robust-rune",
+      "name": "Robust Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1e585207d2/StrengthRune.png",
+      "category": "runes",
+      "price": 3,
+      "changePct": 200,
+      "volume": 1,
+      "high": 3,
+      "low": 0.54,
+      "spark": [
+        0.54,
+        2,
+        1,
+        1,
+        3
+      ]
+    },
+    {
       "id": "ancient-rune-of-shattering",
       "apiId": "ancient-rune-of-shattering",
       "name": "Ancient Rune of Shattering",
@@ -4151,6 +4112,25 @@
         12,
         9.5,
         7,
+        2
+      ]
+    },
+    {
+      "id": "rune-of-confrontation",
+      "apiId": "rune-of-confrontation",
+      "name": "Rune of Confrontation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lMTMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/159530efbe/EarlyMythicRune13.png",
+      "category": "runes",
+      "price": 2,
+      "changePct": -62.498,
+      "volume": 1,
+      "high": 5.333,
+      "low": 1,
+      "spark": [
+        1,
+        1,
+        1,
+        5.333,
         2
       ]
     },
@@ -4181,27 +4161,6 @@
       "high": 2,
       "low": 2,
       "spark": []
-    },
-    {
-      "id": "greater-resolve-rune",
-      "apiId": "greater-resolve-rune",
-      "name": "Greater Resolve Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/badef31810/IntRuneTier3.png",
-      "category": "runes",
-      "price": 2,
-      "changePct": 10.582,
-      "volume": 1,
-      "high": 5.48,
-      "low": 1,
-      "spark": [
-        1.55,
-        1,
-        4.807,
-        5.48,
-        1.833,
-        1.786,
-        1.975
-      ]
     },
     {
       "id": "warding-rune-of-courage",
@@ -4274,6 +4233,27 @@
       ]
     },
     {
+      "id": "rune-of-the-prism",
+      "apiId": "rune-of-the-prism",
+      "name": "Rune of the Prism",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWFybHlNeXRoaWNSdW5lOCIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f2f016e6cd/EarlyMythicRune8.png",
+      "category": "runes",
+      "price": 1,
+      "changePct": 4.729,
+      "volume": 1,
+      "high": 11.627,
+      "low": 5.643,
+      "spark": [
+        8.551,
+        8.173,
+        5.643,
+        11.604,
+        9.996,
+        11.102,
+        11.627
+      ]
+    },
+    {
       "id": "warding-rune-of-protection",
       "apiId": "warding-rune-of-protection",
       "name": "Warding Rune of Protection",
@@ -4314,7 +4294,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRW5kZ2FtZVJ1bmU5Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/24ef732cf3/EndgameRune9.png",
       "category": "runes",
       "price": 1,
-      "changePct": -50,
+      "changePct": 0,
       "volume": 1,
       "high": 3.125,
       "low": 1,
@@ -4324,6 +4304,7 @@
         2.852,
         3.125,
         2,
+        1,
         1
       ]
     },
@@ -4367,27 +4348,6 @@
       ]
     },
     {
-      "id": "ire-of-aldur",
-      "apiId": "ire-of-aldur",
-      "name": "Ire of Aldur",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXhwZWRpdGlvbjIvRWxlbWVudGFsQ29udmVyc2lvblJ1bmVMaWdodG5pbmciLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/73938a519b/ElementalConversionRuneLightning.png",
-      "category": "runes",
-      "price": 1,
-      "changePct": -20.327,
-      "volume": 1,
-      "high": 32.867,
-      "low": 6.125,
-      "spark": [
-        6.125,
-        8.156,
-        8.056,
-        32.867,
-        7.7,
-        8.875,
-        7.071
-      ]
-    },
-    {
       "id": "lesser-adept-rune",
       "apiId": "lesser-adept-rune",
       "name": "Lesser Adept Rune",
@@ -4417,42 +4377,24 @@
       "spark": []
     },
     {
-      "id": "robust-rune",
-      "apiId": "robust-rune",
-      "name": "Robust Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/1e585207d2/StrengthRune.png",
+      "id": "greater-robust-rune",
+      "apiId": "greater-robust-rune",
+      "name": "Greater Robust Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvU3RyZW5ndGhSdW5lVGllcjMiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/bb0d433340/StrengthRuneTier3.png",
       "category": "runes",
       "price": 1,
-      "changePct": 0,
+      "changePct": -82.969,
       "volume": 1,
-      "high": 2,
-      "low": 0.54,
+      "high": 14.667,
+      "low": 0.338,
       "spark": [
-        0.54,
-        2,
-        1,
-        1
-      ]
-    },
-    {
-      "id": "lesser-glacial-rune",
-      "apiId": "lesser-glacial-rune",
-      "name": "Lesser Glacial Rune",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvQ29sZFJ1bmVUaWVyMSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/69c7e6d2a3/ColdRuneTier1.png",
-      "category": "runes",
-      "price": 1,
-      "changePct": -90.017,
-      "volume": 1,
-      "high": 4.077,
-      "low": 0.407,
-      "spark": [
-        1.739,
-        1.336,
-        0.687,
-        0.988,
-        1.958,
-        4.077,
-        0.407
+        3.411,
+        2.104,
+        2.867,
+        3.175,
+        0.338,
+        14.667,
+        2.498
       ]
     },
     {
@@ -4477,6 +4419,27 @@
       ]
     },
     {
+      "id": "greater-resolve-rune",
+      "apiId": "greater-resolve-rune",
+      "name": "Greater Resolve Rune",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvUnVuZXMvSW50UnVuZVRpZXIzIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/badef31810/IntRuneTier3.png",
+      "category": "runes",
+      "price": 1,
+      "changePct": 4.535,
+      "volume": 1,
+      "high": 5.48,
+      "low": 1,
+      "spark": [
+        1.55,
+        1,
+        4.807,
+        5.48,
+        1.833,
+        1.786,
+        1.867
+      ]
+    },
+    {
       "id": "lesser-resolve-rune",
       "apiId": "lesser-resolve-rune",
       "name": "Lesser Resolve Rune",
@@ -4496,36 +4459,15 @@
       ]
     },
     {
-      "id": "essence-of-horror",
-      "apiId": "essence-of-horror",
-      "name": "Essence of Horror",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSG9ycm9yIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6b3b256279/CorruptedEssenceHorror.png",
-      "category": "essences",
-      "price": 626.519,
-      "changePct": -7.473,
-      "volume": 1,
-      "high": 324.174,
-      "low": 91.678,
-      "spark": [
-        166.31,
-        137.34,
-        91.678,
-        281.613,
-        292.98,
-        324.174,
-        299.947
-      ]
-    },
-    {
       "id": "essence-of-hysteria",
       "apiId": "essence-of-hysteria",
       "name": "Essence of Hysteria",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db3JydXB0ZWRFc3NlbmNlSHlzdGVyaWEiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/91e94f1413/CorruptedEssenceHysteria.png",
       "category": "essences",
-      "price": 313.259,
-      "changePct": 1.257,
+      "price": 610.939,
+      "changePct": 6.934,
       "volume": 1,
-      "high": 351.34,
+      "high": 371.037,
       "low": 196.965,
       "spark": [
         196.965,
@@ -4534,7 +4476,7 @@
         275.04,
         281.433,
         346.978,
-        351.34
+        371.037
       ]
     },
     {
@@ -4616,24 +4558,24 @@
       ]
     },
     {
-      "id": "lesser-essence-of-abrasion",
-      "apiId": "lesser-essence-of-abrasion",
-      "name": "Lesser Essence of Abrasion",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/21723a9133/PhysicalEssenceLesser.png",
+      "id": "perfect-essence-of-haste",
+      "apiId": "perfect-essence-of-haste",
+      "name": "Perfect Essence of Haste",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/93df0c5b25/SpeedEssencePerfect.png",
       "category": "essences",
-      "price": 40,
-      "changePct": 67.184,
+      "price": 30,
+      "changePct": 67.793,
       "volume": 1,
-      "high": 17.25,
-      "low": 6.478,
+      "high": 44.106,
+      "low": 7.311,
       "spark": [
-        6.478,
-        7.397,
-        7.256,
-        7.985,
-        11.737,
-        10.318,
-        17.25
+        13.023,
+        18.311,
+        7.311,
+        7.646,
+        16.826,
+        26.286,
+        44.106
       ]
     },
     {
@@ -4655,45 +4597,66 @@
       ]
     },
     {
-      "id": "essence-of-sorcery",
-      "apiId": "essence-of-sorcery",
-      "name": "Essence of Sorcery",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DYXN0ZXJFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/6bb099115a/CasterEssence.png",
+      "id": "essence-of-the-breach",
+      "apiId": "essence-of-the-breach",
+      "name": "Essence of the Breach",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9CcmVhY2hFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/60e81fa5eb/BreachEssence.png",
       "category": "essences",
-      "price": 15,
-      "changePct": -68.293,
+      "price": 25,
+      "changePct": -58.504,
       "volume": 1,
-      "high": 20.5,
-      "low": 6.5,
+      "high": 46.38,
+      "low": 9.149,
       "spark": [
-        10.038,
-        11.936,
-        8.5,
-        12.244,
-        12.167,
-        20.5,
-        6.5
+        13.461,
+        12.904,
+        16.476,
+        9.149,
+        22.015,
+        46.38,
+        19.246
       ]
     },
     {
-      "id": "greater-essence-of-command",
-      "apiId": "greater-essence-of-command",
-      "name": "Greater Essence of Command",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQWxseUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/55b6ba3361/GreaterAllyEssence.png",
+      "id": "lesser-essence-of-insulation",
+      "apiId": "lesser-essence-of-insulation",
+      "name": "Lesser Essence of Insulation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/82eb38b617/FireResistanceEssenceLesser.png",
       "category": "essences",
-      "price": 13,
-      "changePct": 139.783,
+      "price": 15,
+      "changePct": 500,
       "volume": 1,
-      "high": 11.5,
-      "low": 1.933,
+      "high": 9,
+      "low": 1,
       "spark": [
-        6.897,
-        6.926,
-        1.933,
-        3.578,
-        4.494,
-        4.796,
-        11.5
+        1,
+        2,
+        1,
+        1,
+        5.148,
+        1.5,
+        9
+      ]
+    },
+    {
+      "id": "essence-of-insulation",
+      "apiId": "essence-of-insulation",
+      "name": "Essence of Insulation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/228d48a458/FireResistanceEssence.png",
+      "category": "essences",
+      "price": 15,
+      "changePct": 185.433,
+      "volume": 1,
+      "high": 8.7,
+      "low": 3.048,
+      "spark": [
+        6.016,
+        6.25,
+        7.25,
+        8.308,
+        6.244,
+        3.048,
+        8.7
       ]
     },
     {
@@ -4712,6 +4675,48 @@
         5.167,
         15,
         12
+      ]
+    },
+    {
+      "id": "essence-of-ruin",
+      "apiId": "essence-of-ruin",
+      "name": "Essence of Ruin",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9DaGFvc0Vzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/5f0d3c7014/ChaosEssence.png",
+      "category": "essences",
+      "price": 11,
+      "changePct": -20.408,
+      "volume": 1,
+      "high": 24.5,
+      "low": 5,
+      "spark": [
+        10.5,
+        5,
+        9.1,
+        19.583,
+        7.75,
+        24.5,
+        19.5
+      ]
+    },
+    {
+      "id": "greater-essence-of-opulence",
+      "apiId": "greater-essence-of-opulence",
+      "name": "Greater Essence of Opulence",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyUmFyaXR5UmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/dfc7c22676/GreaterRarityResistanceEssence.png",
+      "category": "essences",
+      "price": 10,
+      "changePct": -2.517,
+      "volume": 1,
+      "high": 22.174,
+      "low": 9.699,
+      "spark": [
+        9.877,
+        9.699,
+        12.137,
+        21.466,
+        22.174,
+        13.508,
+        13.168
       ]
     },
     {
@@ -4755,22 +4760,45 @@
       ]
     },
     {
-      "id": "lesser-essence-of-alacrity",
-      "apiId": "lesser-essence-of-alacrity",
-      "name": "Lesser Essence of Alacrity",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/837a9c2d66/SpeedCasterEssenceLesser.png",
+      "id": "essence-of-grounding",
+      "apiId": "essence-of-grounding",
+      "name": "Essence of Grounding",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f752fa5ed2/LightningResistanceEssence.png",
       "category": "essences",
-      "price": 7,
-      "changePct": -93.878,
+      "price": 10,
+      "changePct": -30.519,
       "volume": 1,
-      "high": 49,
-      "low": 1,
+      "high": 9.947,
+      "low": 5.25,
       "spark": [
-        1,
-        17.75,
-        19.5,
-        49,
-        3
+        7.019,
+        7.808,
+        7.433,
+        9.75,
+        9.947,
+        7.556,
+        5.25
+      ]
+    },
+    {
+      "id": "greater-essence-of-haste",
+      "apiId": "greater-essence-of-haste",
+      "name": "Greater Essence of Haste",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png",
+      "category": "essences",
+      "price": 8,
+      "changePct": 465.018,
+      "volume": 1,
+      "high": 17.137,
+      "low": 2.341,
+      "spark": [
+        2.666,
+        2.341,
+        2.685,
+        4.169,
+        4.448,
+        3.033,
+        17.137
       ]
     },
     {
@@ -4813,6 +4841,27 @@
         10,
         4.625,
         5
+      ]
+    },
+    {
+      "id": "greater-essence-of-the-body",
+      "apiId": "greater-essence-of-the-body",
+      "name": "Greater Essence of the Body",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyTGlmZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/8906b401fe/GreaterLifeEssence.png",
+      "category": "essences",
+      "price": 5,
+      "changePct": 128.103,
+      "volume": 1,
+      "high": 4.594,
+      "low": 0.849,
+      "spark": [
+        1.542,
+        2.072,
+        2.062,
+        0.967,
+        0.849,
+        2.014,
+        4.594
       ]
     },
     {
@@ -4879,24 +4928,24 @@
       ]
     },
     {
-      "id": "perfect-essence-of-abrasion",
-      "apiId": "perfect-essence-of-abrasion",
-      "name": "Perfect Essence of Abrasion",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9QaHlzaWNhbEVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/9690e5eb39/PhysicalEssencePerfect.png",
+      "id": "greater-essence-of-thawing",
+      "apiId": "greater-essence-of-thawing",
+      "name": "Greater Essence of Thawing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZFJlc2lzdGFuY2VFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/acdbacca0f/GreaterColdResistanceEssence.png",
       "category": "essences",
       "price": 4,
-      "changePct": -40.854,
+      "changePct": -19.702,
       "volume": 1,
-      "high": 28.816,
-      "low": 3.385,
+      "high": 5.705,
+      "low": 2.463,
       "spark": [
-        5.636,
-        3.385,
-        5.389,
-        12.008,
-        28.816,
-        7.287,
-        4.31
+        3.519,
+        5.388,
+        2.463,
+        2.7,
+        3.693,
+        5.705,
+        4.581
       ]
     },
     {
@@ -4958,27 +5007,6 @@
       ]
     },
     {
-      "id": "essence-of-thawing",
-      "apiId": "essence-of-thawing",
-      "name": "Essence of Thawing",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d36e512699/ColdResistanceEssence.png",
-      "category": "essences",
-      "price": 3,
-      "changePct": -34.743,
-      "volume": 1,
-      "high": 9.847,
-      "low": 4.829,
-      "spark": [
-        7.133,
-        8.6,
-        9.847,
-        8.4,
-        7.667,
-        7.4,
-        4.829
-      ]
-    },
-    {
       "id": "essence-of-flames",
       "apiId": "essence-of-flames",
       "name": "Essence of Flames",
@@ -4997,27 +5025,6 @@
         1.5,
         2,
         2.5
-      ]
-    },
-    {
-      "id": "greater-essence-of-haste",
-      "apiId": "greater-essence-of-haste",
-      "name": "Greater Essence of Haste",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyU3BlZWRFc3NlbmNlIiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/5a72f95c24/GreaterSpeedEssence.png",
-      "category": "essences",
-      "price": 3,
-      "changePct": 498.483,
-      "volume": 1,
-      "high": 18.152,
-      "low": 2.341,
-      "spark": [
-        2.666,
-        2.341,
-        2.685,
-        4.169,
-        4.448,
-        3.033,
-        18.152
       ]
     },
     {
@@ -5042,24 +5049,44 @@
       ]
     },
     {
-      "id": "essence-of-grounding",
-      "apiId": "essence-of-grounding",
-      "name": "Essence of Grounding",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWdodG5pbmdSZXNpc3RhbmNlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/f752fa5ed2/LightningResistanceEssence.png",
+      "id": "perfect-essence-of-the-mind",
+      "apiId": "perfect-essence-of-the-mind",
+      "name": "Perfect Essence of the Mind",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9NYW5hRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/84410174b2/ManaEssencePerfect.png",
       "category": "essences",
       "price": 3,
-      "changePct": -51.469,
+      "changePct": -28.499,
       "volume": 1,
-      "high": 9.947,
-      "low": 3.667,
+      "high": 9.061,
+      "low": 1.665,
       "spark": [
-        7.019,
-        7.808,
-        7.433,
-        9.75,
-        9.947,
-        7.556,
-        3.667
+        9.061,
+        4.166,
+        2.786,
+        1.665,
+        3.091,
+        3.372,
+        2.411
+      ]
+    },
+    {
+      "id": "lesser-essence-of-alacrity",
+      "apiId": "lesser-essence-of-alacrity",
+      "name": "Lesser Essence of Alacrity",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9TcGVlZENhc3RlckVzc2VuY2VMZXNzZXIiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/837a9c2d66/SpeedCasterEssenceLesser.png",
+      "category": "essences",
+      "price": 3,
+      "changePct": 0,
+      "volume": 1,
+      "high": 49,
+      "low": 1,
+      "spark": [
+        1,
+        17.75,
+        19.5,
+        49,
+        3,
+        3
       ]
     },
     {
@@ -5083,24 +5110,24 @@
       ]
     },
     {
-      "id": "greater-essence-of-ice",
-      "apiId": "greater-essence-of-ice",
-      "name": "Greater Essence of Ice",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyQ29sZEVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/e5224bace0/GreaterColdEssence.png",
+      "id": "essence-of-thawing",
+      "apiId": "essence-of-thawing",
+      "name": "Essence of Thawing",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9Db2xkUmVzaXN0YW5jZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/d36e512699/ColdResistanceEssence.png",
       "category": "essences",
       "price": 2,
-      "changePct": 20.434,
+      "changePct": -39.527,
       "volume": 1,
-      "high": 1.833,
-      "low": 0.95,
+      "high": 9.847,
+      "low": 4.475,
       "spark": [
-        1.2,
-        0.95,
-        1.306,
-        1,
-        1,
-        1.522,
-        1.833
+        7.133,
+        8.6,
+        9.847,
+        8.4,
+        7.667,
+        7.4,
+        4.475
       ]
     },
     {
@@ -5143,6 +5170,27 @@
       ]
     },
     {
+      "id": "perfect-essence-of-insulation",
+      "apiId": "perfect-essence-of-insulation",
+      "name": "Perfect Essence of Insulation",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9GaXJlUmVzaXN0YW5jZUVzc2VuY2VQZXJmZWN0Iiwic2NhbGUiOjEsInJlYWxtIjoicG9lMiJ9XQ/133d10b42e/FireResistanceEssencePerfect.png",
+      "category": "essences",
+      "price": 2,
+      "changePct": 0,
+      "volume": 1,
+      "high": 10.25,
+      "low": 2,
+      "spark": [
+        2.333,
+        7.267,
+        10.25,
+        2.5,
+        3,
+        2,
+        2
+      ]
+    },
+    {
       "id": "greater-essence-of-battle",
       "apiId": "greater-essence-of-battle",
       "name": "Greater Essence of Battle",
@@ -5168,7 +5216,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZVBlcmZlY3QiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/09083af8bb/LifeEssencePerfect.png",
       "category": "essences",
       "price": 2,
-      "changePct": -10,
+      "changePct": -13.9,
       "volume": 1,
       "high": 11.56,
       "low": 1.388,
@@ -5179,7 +5227,7 @@
         1.388,
         11.56,
         3,
-        2.7
+        2.583
       ]
     },
     {
@@ -5241,27 +5289,6 @@
       ]
     },
     {
-      "id": "essence-of-the-body",
-      "apiId": "essence-of-the-body",
-      "name": "Essence of the Body",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9MaWZlRXNzZW5jZSIsInNjYWxlIjoxLCJyZWFsbSI6InBvZTIifV0/638d6c4cbe/LifeEssence.png",
-      "category": "essences",
-      "price": 1,
-      "changePct": -93.519,
-      "volume": 1,
-      "high": 15.429,
-      "low": 1,
-      "spark": [
-        9.591,
-        8.903,
-        9.689,
-        10.792,
-        6.6,
-        15.429,
-        1
-      ]
-    },
-    {
       "id": "lesser-essence-of-command",
       "apiId": "lesser-essence-of-command",
       "name": "Lesser Essence of Command",
@@ -5299,27 +5326,6 @@
         10.5,
         8.5,
         8
-      ]
-    },
-    {
-      "id": "greater-essence-of-flames",
-      "apiId": "greater-essence-of-flames",
-      "name": "Greater Essence of Flames",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQ3VycmVuY3kvRXNzZW5jZS9HcmVhdGVyRmlyZUVzc2VuY2UiLCJzY2FsZSI6MSwicmVhbG0iOiJwb2UyIn1d/9b8d6e7b4e/GreaterFireEssence.png",
-      "category": "essences",
-      "price": 1,
-      "changePct": 0,
-      "volume": 1,
-      "high": 1.5,
-      "low": 0.794,
-      "spark": [
-        0.794,
-        0.875,
-        1.333,
-        1.5,
-        1,
-        1,
-        1
       ]
     },
     {
